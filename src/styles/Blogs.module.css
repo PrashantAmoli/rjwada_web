@@ -1,0 +1,181 @@
+/* Page styles */
+.pageContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	background-color: black;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	background-image: url('/blog-header.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	width: 100%;
+	min-height: 300px;
+	position: relative;
+}
+
+.header > * {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header > h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: left;
+	color: #ffffff;
+}
+
+.tabbar {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	backdrop-filter: blur(10px);
+	background-color: #333333;
+	border-radius: 5rem;
+	height: 3.3rem;
+	padding: 0.4rem;
+	overflow: hidden;
+}
+
+.tabbar > button {
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	border-radius: 5rem;
+	padding: 0.2rem 1.2rem;
+	outline: none;
+	font-weight: 600;
+}
+
+.tabbar > button:hover {
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.selectedTab {
+	background-color: #ffffff;
+	color: #333333;
+}
+
+/* Main Article: why AR tryon......? */
+.mainArticle {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	width: 72%;
+	background-color: #a026ff;
+	border-radius: 4.4rem;
+	overflow: hidden;
+	margin: 0 auto; /* Center the article */
+}
+
+.mainArticle > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.mainArticleBody {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 1rem;
+	padding: 2rem 1rem;
+	word-wrap: break-word;
+	text-decoration: none;
+}
+
+.mainArticleBody > h2 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: #ffffff;
+	letter-spacing: 0.2rem;
+	line-height: 3.3rem;
+}
+
+.mainArticleBody > p {
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: #e4e4e4;
+	letter-spacing: 0.1rem;
+	line-height: 1.3rem;
+}
+
+.mainArticleBody > a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	line-height: 1.3rem;
+}
+
+.link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	line-height: 1.3rem;
+}
+
+.link:hover {
+	color: #ffffff;
+}
+
+/*  */
+.blogsGrid {
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fill, 350px);
+	width: 100%;
+	justify-content: center;
+	align-content: space-evenly;
+}
+
+/* Card Styles */
+.blogCard {
+	width: 100%;
+	max-width: 400px;
+	height: fit-content;
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.blogThumbnail {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	border-radius: 2rem;
+}
+
+.blogCategory {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #0099ef;
+}
+
+.blogTitle {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.blogLink {
+	text-decoration: none;
+	gap: 1rem;
+}
