@@ -1,0 +1,152 @@
+
+/* career-page style */
+
+.career-page {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.career-page .hiringbtn {
+    margin: 3rem 2rem;
+}
+
+.career-page .hiringbtn button {
+    width: 184px;
+    height: 46px;
+    left: 91px;
+    top: 218px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+
+
+.career-page .career-text1 {
+    margin: 2rem 2rem;
+}
+
+.career-page .career-text1 span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    color: #FFFFFF;
+}
+
+.career-page .blue-text {
+    color: #0D99FF;
+}
+
+
+.career-page .career-text2 {
+    margin: 2rem 2rem;
+    max-width: 800px;
+}
+
+
+.career-page .career-text2 span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.career-page .buttons {
+    margin: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.career-page .buttons button {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    width: 144px;
+    height: 46px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.career-page .hrline {
+    margin: 5.5rem 2rem 0 2rem;
+    border: 1px solid #676767;
+}
+
+.career-page .jobs {
+    margin: 3rem 2rem 0 2rem;
+}
+
+.career-page .job {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.career-page .job .jobdetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.career-page .job .jobdetail .jobtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.career-page .job .jobdetail .jobdesc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.career-page .job .jobdetail .jobdetailbuttons {
+    margin: 1.8rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.career-page .job .jobdetail .jobdetailbuttons button {
+    width: 184px;
+    height: 46px;
+    left: 91px;
+    top: 927px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.career-page .job .jobdetail .jobdetailbuttons button img{
+    background: #D9D9D9;
+}
+
+.career-page .job .jobapply span{
+    margin: 0 0.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.career-page .hrinnerline {
+    margin: 3rem 0;
+    border: 1px solid #676767;
+}
