@@ -1,7 +1,7 @@
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import { Routes, Route } from 'react-router-dom';
-import { About, Bigcommerce, Blogs, Careers, Features, Home, ScheduleDemo, Services, Shopify, Stepin } from './components';
+import { About, Bigcommerce, Blogs, Careers, Features, Home, ScheduleDemo, Services, Stepin } from './components';
 
 function App() {
 	return (
@@ -17,7 +17,6 @@ function App() {
 				<Route path="/features" element={<Features />} />
 				<Route path="/scheduleDemo" element={<ScheduleDemo />} />
 				<Route path="/services" element={<Services />} />
-				<Route path="/shopify" element={<Shopify />} />
 				<Route path="/stepin" element={<Stepin />} />
 			</Routes>
 
