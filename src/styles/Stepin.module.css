@@ -1,0 +1,115 @@
+.pageContainer {
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	word-wrap: break-word;
+	min-height: 70vh;
+}
+
+.pageContainer > * {
+	max-width: 600px;
+}
+
+.pageContainer > *:first-child {
+	margin-top: 3rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+}
+
+.textBlue {
+	color: #0d99ff;
+	font-weight: 900;
+	font-size: 1.6rem;
+	letter-spacing: 0.2rem;
+}
+
+.arContainer {
+	width: 100%;
+	max-width: 900px;
+	min-height: 40vh;
+	margin: 0 auto;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+
+	backdrop-filter: blur(10px);
+	background-image: url('https://www.abc.net.au/news/image/11400000-1x1-940x940.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	border: 2px solid rgba(0, 0, 90, 0.9);
+}
+
+.arContainer > div {
+	position: relative;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	min-height: 5rem;
+	background: rgba(10, 0, 90, 0.5);
+	animation: infinite fadeIn 4s linear;
+}
+
+.btnContainer {
+	width: 100%;
+	max-width: 900px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btnContainer > button {
+	padding: 0.8rem 2.5rem;
+	font-size: 1.15rem;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+	background: #0d99ff;
+	border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+	.pageContainer {
+		gap: 1.5rem;
+	}
+
+	.pageContainer > *:first-child {
+		margin-top: 1.5rem;
+		font-size: 1.2rem;
+	}
+
+	.textBlue {
+		font-size: 1.2rem;
+	}
+
+	.arContainer {
+		min-height: 30vh;
+	}
+
+	.btnContainer > button {
+		padding: 0.5rem 1.5rem;
+		font-size: 1rem;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 0.8;
+	}
+	70% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 0;
+	}
+}

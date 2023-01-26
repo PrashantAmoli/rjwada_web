@@ -1,0 +1,75 @@
+.heading {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 2rem auto;
+}
+
+.formContainer {
+	width: 95%;
+	max-width: 666px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2.2rem;
+	margin: 2.5rem auto;
+}
+
+.formRow {
+	display: flex;
+	flex-direction: row;
+	gap: 2.2rem;
+}
+
+.inputTag {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 12px;
+	padding: 1rem;
+	font-size: 15px;
+	resize: none;
+	outline: none;
+}
+
+.required {
+	color: white;
+	position: relative;
+	top: -30px;
+}
+
+.required:after {
+	content: '*';
+	color: red;
+}
+
+.errorToast {
+	background-color: #f8d7da;
+	color: #721c24;
+	border-color: #f5c6cb;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	z-index: 10;
+}
+
+.btn {
+	background-color: #3ca2ed;
+	font-weight: 900;
+}
+
+.successMessage {
+	color: #6beba4;
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+	margin: 2rem auto;
+}
+
+@media screen and (max-width: 768px) {
+	.formRow {
+		flex-direction: column;
+		gap: 2.2rem;
+	}
+}
