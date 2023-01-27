@@ -18,7 +18,7 @@ export default function navbar() {
             <Nav.Link href="./Features" id="nav-list">Features</Nav.Link>
 
             <NavDropdown title="Integration" id="nav-list" menuVariant="dark" align="end">
-              <NavDropdown.Item href="./Shopify" id="shopify">Shopify</NavDropdown.Item>
+              <NavDropdown.Item href="./services" id="shopify">Shopify</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href="./Careers" id="nav-list">Careers</Nav.Link>
