@@ -1,13 +1,27 @@
-import { Button } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
 import styles from '../../styles/Blogs.module.css';
 import BlogCard from '../cards/BlogCard';
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 const topics = ['All', 'Product Update', 'Augmented Reality', 'Technology', 'Expert Opinion'];
 
 function Blogs() {
+	const [activeTopic, setActiveTopic] = useState(0);
+	const [blogs, setBlogs] = useState([]);
+
+	useEffect(() => {
+		const fetchBlogs = async () => {
+			const res = await fetch('http://localhost:3001/blogs');
+			const data = await res.json();
+			setBlogs(data);
+		};
+
+		fetchBlogs();
+	}, []);
+
 	return (
 		<Container fluid className={`${styles.pageContainer}`}>
 			<header className={`${styles.header}`}>
@@ -38,13 +52,9 @@ function Blogs() {
 			</div>
 
 			<div className={`${styles.blogsGrid}`}>
-				<BlogCard />
-				<BlogCard />
-				<BlogCard />
-				<BlogCard />
-				<BlogCard />
-				<BlogCard />
-				<BlogCard />
+				{blogs.map(blog => (
+					<BlogCard key={blog.id} {...blog} />
+				))}
 			</div>
 		</Container>
 	);
