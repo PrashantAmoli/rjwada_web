@@ -24,7 +24,7 @@ export default function Service() {
           Easy steps for an <span>unmatched</span> experience
         </h3>
         <Row className="justify-content-md-center">
-          <Col className="div" xs={4}>
+          <Col className="div" md={4}>
             <img src={"/icon1.png"} alt="" />
             <h4>
               Download <span>Rjwada</span> app
