@@ -4,6 +4,7 @@
 	flex-direction: column;
 	gap: 4rem;
 	background-color: black;
+	padding: 0;
 	padding-bottom: 6rem;
 }
 

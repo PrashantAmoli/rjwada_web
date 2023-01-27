@@ -4,13 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 export default function navbar() {
 	return (
 		<Navbar id="navbar" bg="transparent" collapseOnSelect expand="md">
 			<Container>
-				<Navbar.Brand href="#brand" id="nav-list">
-					rjwada
+				<Navbar.Brand id="nav-list">
+					<Link to="/">rjwada</Link>
 				</Navbar.Brand>
 
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" id="navbar-toggler">
@@ -19,13 +20,13 @@ export default function navbar() {
 
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav style={{ marginLeft: 'auto' }}>
-						<Nav.Link href="./Features" id="nav-list">
-							Features
+						<Nav.Link id="nav-list">
+							<Link to="/features">Features</Link>
 						</Nav.Link>
 
 						<NavDropdown title="Integration" id="nav-list" menuVariant="dark" align="end">
-							<NavDropdown.Item href="./Shopify" id="shopify">
-								Shopify
+							<NavDropdown.Item id="shopify">
+								<Link to="/services">Shopify</Link>
 							</NavDropdown.Item>
 						</NavDropdown>
 
