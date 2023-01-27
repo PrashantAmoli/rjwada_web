@@ -14,11 +14,11 @@ export default function BlogCard({ thumbnail = temp.thumbnail, topic = temp.topi
 			<img src={thumbnail} alt="blog" className={`${styles.blogThumbnail}`} />
 
 			<div className="flex flex-col">
-				<h3 className="">{topic}</h3>
+				<h3 className={`${styles.blogTopic}`}>{topic}</h3>
 
-				<p>{title}</p>
+				<p className={`${styles.blogTitle}`}>{title}</p>
 
-				<Link to={link} className="">
+				<Link to={link} className={`${styles.blogLink}`}>
 					<img src="/blog-arrow.svg" alt="" />
 					&nbsp;READ FULL ARTICLE
 				</Link>
