@@ -1,15 +1,13 @@
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
-import { Routes, Route } from 'react-router-dom';
+import { Route, createBrowserRouter, createRoutesFromElements, Outlet, RouterProvider } from 'react-router-dom';
 import { About, Bigcommerce, Blogs, Careers, Features, Home, ScheduleDemo, Services, Stepin } from './components';
 
-function App() {
-	return (
-		<div className="App">
-			<Navbar />
-
-			<Routes>
-				<Route path="/" element={<Home />} />
+export default function App() {
+	const router = createBrowserRouter(
+		createRoutesFromElements(
+			<Route path="/" element={<Root />}>
+				<Route index element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/bigcommerce" element={<Bigcommerce />} />
 				<Route path="/blogs" element={<Blogs />} />
@@ -18,11 +16,25 @@ function App() {
 				<Route path="/scheduleDemo" element={<ScheduleDemo />} />
 				<Route path="/services" element={<Services />} />
 				<Route path="/stepin" element={<Stepin />} />
-			</Routes>
+			</Route>
+		)
+	);
 
-			<Footer />
+	return (
+		<div className="App">
+			<RouterProvider router={router} />
 		</div>
 	);
 }
 
-export default App;
+const Root = () => {
+	return (
+		<>
+			<Navbar />
+			<main>
+				<Outlet />
+			</main>
+			<Footer />
+		</>
+	);
+};
