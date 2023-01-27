@@ -3,48 +3,65 @@ import Footer from './components/layout/Footer';
 import NotFound from './components/pages/NotFound';
 import { Route, Routes, createBrowserRouter, createRoutesFromElements, Outlet, RouterProvider } from 'react-router-dom';
 import { About, Bigcommerce, Blogs, Careers, Features, Home, ScheduleDemo, Services, Stepin } from './components';
-// const routesArray = [
-// 	{
-// 		path: '/',
-// 		element: <Root />,
-// 	},
-// 	{
-// 		path: 'blogs',
-// 		element: <Blogs />,
-// 	},
-// 	{
-// 		path: 'bigcommerce',
-// 		element: <Bigcommerce />,
-// 	},
-// 	{
-// 		path: 'careers',
-// 		element: <Careers />,
-// 	},
-// 	{
-// 		path: 'features',
-// 		element: <Features />,
-// 	},
-// 	{
-// 		path: 'scheduleDemo',
-// 		element: <ScheduleDemo />,
-// 	},
-// 	{
-// 		path: 'services',
-// 		element: <Services />,
-// 	},
-// 	{
-// 		path: 'stepin',
-// 		element: <Stepin />,
-// 	},
-// 	{
-// 		path: 'about',
-// 		element: <About />,
-// 	},
-// 	{
-// 		path: '*',
-// 		element: <NotFound />,
-// 	},
-// ];
+
+const Root = () => {
+	return (
+		<>
+			<Navbar />
+
+			<main>
+				<Outlet />
+			</main>
+
+			<Footer />
+		</>
+	);
+};
+
+const routesArray = [
+	{
+		path: '/',
+		element: <Root />,
+		children: [
+			{
+				path: 'blogs',
+				element: <Blogs />,
+			},
+			{
+				path: 'bigcommerce',
+				element: <Bigcommerce />,
+			},
+			{
+				path: 'careers',
+				element: <Careers />,
+			},
+			{
+				path: 'features',
+				element: <Features />,
+			},
+			{
+				path: 'scheduleDemo',
+				element: <ScheduleDemo />,
+			},
+			{
+				path: 'services',
+				element: <Services />,
+			},
+			{
+				path: 'stepin',
+				element: <Stepin />,
+			},
+			{
+				path: 'about',
+				element: <About />,
+			},
+			{
+				path: '*',
+				element: <NotFound />,
+			},
+		],
+	},
+];
 export default function App() {
 	// const router = createBrowserRouter(
 	// 	createRoutesFromElements(
@@ -63,10 +80,12 @@ export default function App() {
 	// 	)
 	// );
 
+	const router = createBrowserRouter(routesArray);
+
 	return (
 		<div className="App">
-			{/* <RouterProvider router={router} /> */}
-			<Navbar />
+			<RouterProvider router={router} />
+			{/* <Navbar />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
@@ -78,23 +97,8 @@ export default function App() {
 				<Route path="/services" element={<Services />} />
 				<Route path="/stepin" element={<Stepin />} />
 				<Route path="*" element={<NotFound />} />
-			</Routes>
-
 			<Footer />
+			</Routes> */}
 		</div>
 	);
 }
-
-const Root = () => {
-	return (
-		<>
-			<Navbar />
-
-			<main>
-				<Outlet />
-			</main>
-
-			<Footer />
-		</>
-	);
-};
