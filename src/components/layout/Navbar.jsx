@@ -8,38 +8,50 @@ import { Link } from 'react-router-dom';
 
 export default function navbar() {
 	return (
-		<Navbar id="navbar" bg="transparent" collapseOnSelect expand="md">
+		<Navbar id="navbar" collapseOnSelect expand="md">
 			<Container>
 				<Navbar.Brand id="nav-list">
-					<Link to="/">rjwada</Link>
+					<Link to="/" className="Link-style" style={{ textDecoration: 'none', color: 'white' }}>
+						rjwada
+					</Link>
 				</Navbar.Brand>
 
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" id="navbar-toggler">
-					<img src="/menu.svg" alt="X" />
+					<img src="toggler.png" className="toggler-image" />
 				</Navbar.Toggle>
 
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav style={{ marginLeft: 'auto' }}>
 						<Nav.Link id="nav-list">
-							<Link to="/features">Features</Link>
+							<Link to="/Features" style={{ textDecoration: 'none', color: 'white' }}>
+								Features
+							</Link>
 						</Nav.Link>
 
 						<NavDropdown title="Integration" id="nav-list" menuVariant="dark" align="end">
 							<NavDropdown.Item id="shopify">
-								<Link to="/services">Shopify</Link>
+								<Link to="/Shopify" style={{ textDecoration: 'none', color: 'white' }}>
+									Shopify
+								</Link>
 							</NavDropdown.Item>
 						</NavDropdown>
 
-						<Nav.Link href="./Careers" id="nav-list">
-							Careers
+						<Nav.Link id="nav-list">
+							<Link to="/Careers" style={{ textDecoration: 'none', color: 'white' }}>
+								Careers
+							</Link>
 						</Nav.Link>
 
-						<Nav.Link href="./About" id="nav-list">
-							About Us
+						<Nav.Link id="nav-list">
+							<Link to="/About" style={{ textDecoration: 'none', color: 'white' }}>
+								About Us
+							</Link>
 						</Nav.Link>
 
-						<Nav.Link href="./ScheduleDemo" id="nav-schedule-demo">
-							Schedule a demo
+						<Nav.Link id="nav-schedule-demo">
+							<Link to="/ScheduleDemo" style={{ textDecoration: 'none', color: 'white' }}>
+								Schedule a demo
+							</Link>
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

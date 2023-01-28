@@ -37,14 +37,11 @@
 }
 
 #navbar-toggler {
-	/* background-color: #ffffff; */
-	color: white;
-	fill: white;
+	background-color: transparent;
 }
 
-#navbar-toggler > img {
-	color: white;
-	fill: white;
-	height: 26px;
-	width: 26px;
+.toggler-image {
+	width: 23px;
+	height: 23px;
+	height: fit-content;
 }
