@@ -155,7 +155,7 @@
 }
 
 .link:hover {
-	color: #ffffff;
+	color: #c4d9ff;
 }
 
 /*  */
@@ -183,10 +183,6 @@
 	padding: 0.2rem;
 }
 
-.blogCard:hover {
-	transform: scale(1.02);
-	/* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
-}
 
 .blogThumbnail {
 	width: 100%;
@@ -196,6 +192,11 @@
 	background-repeat: no-repeat;
 	object-fit: cover;
 	border-radius: 2rem;
+}
+
+.blogThumbnail:hover {
+	transform: scale(1.02);
+	/* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .blogTopic {
