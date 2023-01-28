@@ -4,61 +4,76 @@ import '../pages/Features.css';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
+import { Link } from 'react-router-dom'
 
 function Features() {
 	return (
 		
-		<><div className='picture'>
-			<img src="featurepage1.png" alt="react logo" className='image8' />
-			<div>
-				<div className='header1'>
-					<h1>"Experience the world in a whole new</h1>
-					<h1>way with Augmented Reality."</h1>
-				</div>
-
-				<div class="row">
-					<div className='header2'>
-						<a>See demo </a>
-						<a href="#"><img src="feature-page-arrow.png" alt="HTML tutorial" className='social-logo-size' /></a>
+		<>
+		<div className="article">
+			<img className="image" src="featurepage1.png" alt="background" />
+			
+			<div class="row">
+					<div className='header'>
+						<h1 className='headertext1'>"Experience the world in a whole new</h1>
+						<h1 className='headertext1'>way with Augmented Reality."</h1>
+						<a className='headertext1' style={{ textDecoration: 'none',color:'white' }}>See demo </a>
+						<Link to="#" style={{ textDecoration: 'none',color:'white' }}>
+							<img src="feature-page-arrow.png" alt="HTML tutorial" className='social-logo-size' />
+						</Link>
 					</div>
 				</div>
+		</div>
+		<br />
 
-			</div>
-		</div><br />
-		<div className='card-box'>
-				<div class="row">
-					<div class="column">
+		<div className="container-fluid ">
+				<div className='row'>
+
+					<div className="col-md-6 mb-md-0 mb-2">						
 						<img src="ar-try-on.png" alt="react logo" className='card1' />
 					</div>
-					<div class="column">
+
+					<div className="col-md-6 mb-md-0 mb-2">					
 						<h2 className='card-text1'>AR TRY ON</h2>
 						<p className='card-text2'>Try on before you buy: enhance your shopping experience with our Augmented Reality.</p>
+						
 					</div>
+				
 				</div>
-			</div><br />
-			<div className='card-box'>
-				<div class="row">
-					<div class="column">
-						<h2 className='card-text1'>3D View</h2>
+		</div>
+		<br />
+		<div className="container-fluid ">
+				<div className='row'>
+
+					<div className="col-md-6 mb-md-0 mb-2">						
+					<h2 className='card-text1'>3D View</h2>
 						<p className='card-text2'>Check the 360 view for all your product with on your fingertips.</p>
 					</div>
-					<div class="column">
+
+					<div className="col-md-6 mb-md-0 mb-2">					
 						<img src="3d-view.png" alt="react logo" className='card1' />
 					</div>
+				
 				</div>
-			</div><br />
-			<div className='card-box'>
-				<div class="row">
-					<div class="column">
+		</div>
+		<br />
+		<div className="container-fluid ">
+				<div className='row'>
+
+					<div className="col-md-6 mb-md-0 mb-2">						
 						<img src="surface-view.png" alt="react logo" className='card1' />
 					</div>
-					<div class="column">
+
+					<div className="col-md-6 mb-md-0 mb-2">					
 						<h2 className='card-text1'>Surface View</h2>
 						<p className='card-text2'>Surface view to check your product in real world making choice for the product more useful</p>
+						
 					</div>
+				
 				</div>
-			</div><br /><br /><br /><br /><br /><br/><br/>
+		</div>
+			
+		<br /><br /><br /><br /><br /><br/><br/> 
 			<div className="text3">A dashboard to get all the requirement fullfilled</div>
 			<div className="text3">3D assets for all the product</div>
 			<div > <img  src="3d-assets.png" alt="" className="assets-img"/></div>
