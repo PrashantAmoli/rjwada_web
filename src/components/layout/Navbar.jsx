@@ -23,7 +23,7 @@ export default function navbar() {
 
             <NavDropdown title="Integration" id="nav-list" menuVariant="dark" align="end">
 
-              <NavDropdown.Item id="shopify"><Link to="/Shopify" style={{ textDecoration: 'none',color:'white' }}>Shopify</Link></NavDropdown.Item>
+              <NavDropdown.Item id="services"><Link to="/Services" style={{ textDecoration: 'none',color:'white' }}>Shopify</Link></NavDropdown.Item>
 
             </NavDropdown>
 
