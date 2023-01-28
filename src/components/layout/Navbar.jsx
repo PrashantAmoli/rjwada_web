@@ -1,5 +1,5 @@
-import React from 'react'
-import '../layout/Navbar.css'
+import React from 'react';
+import '../layout/Navbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -7,7 +7,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom'
 
 export default function navbar() {
-  return (
+	return (
+		<Navbar id="navbar" bg="transparent" collapseOnSelect expand="md">
+			<Container>
+				<Navbar.Brand id="nav-list">
+					<Link to="/">rjwada</Link>
+				</Navbar.Brand>
+
 
     <Navbar id="navbar" collapseOnSelect expand="md" >
       <Container>
