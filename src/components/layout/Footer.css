@@ -1,133 +1,126 @@
 footer {
-    text-align: center;
-    background-color: transparent;
-    
+	text-align: center;
+	background-color: transparent;
 }
 
 .box-col1 {
-    
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 143px; 
-    background-color: #3CA2ED;
-  }
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 143px;
+	background-color: #3ca2ed;
+}
 .box-col2 {
-    
-    float: right;
-    width: 50%;
-    padding: 10px;
-    height: 143px; 
-    background-color: #3CA2ED;
-  }
-.footer-h1{
-    text-align: left;
-    margin-top: 40px;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    color: #ffffff;
+	float: right;
+	width: 50%;
+	padding: 10px;
+	height: 143px;
+	background-color: #3ca2ed;
 }
-.footer-h2{
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3vw;
-    line-height: 39px;
-    color: #FFFFFF;
+.footer-h1 {
+	text-align: left;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+	color: #ffffff;
 }
-
+.footer-h2 {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3vw;
+	line-height: 39px;
+	color: #ffffff;
+}
 
 .button {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    border-radius: 12px;
-    background-color: #ffffff; 
-    border: none;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	border-radius: 12px;
+	background-color: #ffffff;
+	border: none;
+	color: black;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+}
 
- ul li{
-    
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    display:flex;  
-    list-style:none;
-    
+ul li {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
 }
-.text{
-    margin-top:15px;
-    margin-bottom: 10px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
+.text {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
 }
-.text1{
-    margin-top:15px;
-    margin-bottom: 10px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #0D99FF;
+.text1 {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0d99ff;
 }
-.linkes{
-    padding-top: 10px;
-    text-decoration-line: none;
-    text-decoration-thickness: initial;
-    text-decoration-style: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color:#FFFFFF
+.linkes {
+	padding-top: 10px;
+	text-decoration-line: none;
+	text-decoration-thickness: initial;
+	text-decoration-style: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
 }
 
 hr.new4 {
-    margin-top: 0rem;
-    margin-right: 0px;
-    margin-bottom: 0rem;
-    margin-left: 0px;
-    
-    border: 1px solid #FFFFFF;
-    background-color: transparent;
-  }
+	margin-top: 0rem;
+	margin-right: 0px;
+	margin-bottom: 0rem;
+	margin-left: 0px;
 
-.copyright{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
+	border: 1px solid #ffffff;
+	background-color: transparent;
 }
 
-.social-logo-size
-{
-    width: 27px;
-    height:27px;
+.copyright {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
 }
 
-.letsconnect{
-    background-color: #3CA2ED;
+.social-logo-size {
+	width: 27px;
+	height: 27px;
+}
+
+.letsconnect {
+	background-color: #3ca2ed;
 }
