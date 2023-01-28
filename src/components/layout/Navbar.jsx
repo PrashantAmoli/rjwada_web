@@ -31,13 +31,11 @@ export default function navbar() {
 							</Link>
 						</Nav.Link>
 
-						<NavDropdown title="Integration" id="nav-list" menuVariant="dark" align="end">
-							<NavDropdown.Item id="shopify">
-								<Link to="/Shopify" style={{ textDecoration: 'none', color: 'white' }}>
-									Shopify
-								</Link>
-							</NavDropdown.Item>
-						</NavDropdown>
+            <NavDropdown title="Integration" id="nav-list" menuVariant="dark" align="end">
+
+              <NavDropdown.Item id="services"><Link to="/Services" style={{ textDecoration: 'none',color:'white' }}>Shopify</Link></NavDropdown.Item>
+
+            </NavDropdown>
 
 						<Nav.Link id="nav-list">
 							<Link to="/Careers" style={{ textDecoration: 'none', color: 'white' }}>

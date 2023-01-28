@@ -150,3 +150,67 @@
     margin: 3rem 0;
     border: 1px solid #676767;
 }
+
+@media screen and (max-width:445px){
+
+    .career-page .career-text1 span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: normal;
+}
+    .career-page .career-text1 span span{
+        margin-top: -10px;
+        color: #0D99FF;
+    }
+
+    .career-page .career-text2 span{
+        font-weight: 400;
+        font-size: 1rem;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .hiringbtn button{
+        margin-top: 50px;
+    }
+
+    #id1{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id3{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id5{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+
+    #id2{
+        font-size: 1rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    
+    #id4{
+        font-size: 1rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    #id6{
+        font-size: 1rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+
+
+
+}
