@@ -6,7 +6,17 @@ import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import { Button, Col, Row } from 'react-bootstrap';
 
-const topics = ['All', 'Product Update', 'Augmented Reality', 'Technology', 'Expert Opinion'];
+const topics = [
+	'All',
+	'Product Update',
+	'Augmented Reality',
+	'Technology',
+	'Expert Opinion',
+	'Product Update',
+	'Augmented Reality',
+	'Technology',
+	'Expert Opinion',
+];
 
 function Blogs() {
 	const [activeTopic, setActiveTopic] = useState(0);
@@ -29,14 +39,14 @@ function Blogs() {
 
 				<div className={`${styles.tabbar}`}>
 					{topics.map((topic, index) => (
-						<button key={index} className={`${styles.topicBtn} ${index === 0 ? styles.active : ''}`}>
+						<button key={index} className={`${styles.topicBtn} ${index === 0 ? styles.selected : ''}`}>
 							{topic}
 						</button>
 					))}
 				</div>
 			</header>
 
-			<Container fluid="lg">
+			<Container fluid="lg" className={`${styles.mainArticleContainer}`}>
 				<Row className={`${styles.mainArticle}`}>
 					<Col sm="4" md={5} lg={5} className={`${styles.mainArticleImage}`}>
 						<img src="/blog-article.svg" alt="" />
@@ -61,13 +71,19 @@ function Blogs() {
 				{blogs.map((blog, index) => (
 					<BlogCard key={index} {...blog} />
 				))}
+				{/* <Blogs />
+				<Blogs />
+				<Blogs />
+				<Blogs />
+				<Blogs />
+				<Blogs /> */}
 			</Container>
 
+			{/* <hr />
 			<hr />
-			<hr />
-			<hr />
+			<hr /> */}
 
-			<Container fluid="lg" className="align-items-center justify-content-center">
+			{/* <Container fluid="lg" className="align-items-center justify-content-center">
 				<Row className="d-flex justify-content-center">
 					<Col sm="12" md="6" lg="6" xl="4" xxl="4" className="">
 						<BlogCard />
@@ -85,7 +101,7 @@ function Blogs() {
 						<BlogCard />
 					</Col>
 				</Row>
-			</Container>
+			</Container> */}
 
 			<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
 				Load More
