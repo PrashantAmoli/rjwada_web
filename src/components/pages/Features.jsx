@@ -17,7 +17,7 @@ function Features() {
 					<div className='header'>
 						<h1 className='headertext1'>"Experience the world in a whole new</h1>
 						<h1 className='headertext1'>way with Augmented Reality."</h1>
-						<a className='headertext1' style={{ textDecoration: 'none',color:'white' }}>See demo </a>
+						<a className='headertext2' style={{ textDecoration: 'none',color:'white', } }>See Demo </a>
 						<Link to="#" style={{ textDecoration: 'none',color:'white' }}>
 							<img src="feature-page-arrow.png" alt="HTML tutorial" className='social-logo-size' />
 						</Link>
@@ -27,13 +27,13 @@ function Features() {
 		<br />
 
 		<div className="container-fluid ">
-				<div className='row'>
+				<div className='template1 row '>
 
-					<div className="col-md-6 mb-md-0 mb-2">						
+					<div className=" col-md-6 mb-md-0 mb-2">						
 						<img src="ar-try-on.png" alt="react logo" className='card1' />
 					</div>
 
-					<div className="col-md-6 mb-md-0 mb-2">					
+					<div className="template-col col-md-6 mb-md-0 mb-2">					
 						<h2 className='card-text1'>AR TRY ON</h2>
 						<p className='card-text2'>Try on before you buy: enhance your shopping experience with our Augmented Reality.</p>
 						
@@ -45,8 +45,8 @@ function Features() {
 		<div className="container-fluid ">
 				<div className='row'>
 
-					<div className="col-md-6 mb-md-0 mb-2">						
-					<h2 className='card-text1'>3D View</h2>
+					<div className=" col-md-6 mb-md-0 mb-2">						
+						<h2 className='card-text1'>3D View</h2>
 						<p className='card-text2'>Check the 360 view for all your product with on your fingertips.</p>
 					</div>
 
@@ -58,7 +58,7 @@ function Features() {
 		</div>
 		<br />
 		<div className="container-fluid ">
-				<div className='row'>
+				<div className='template1 row'>
 
 					<div className="col-md-6 mb-md-0 mb-2">						
 						<img src="surface-view.png" alt="react logo" className='card1' />
@@ -73,11 +73,11 @@ function Features() {
 				</div>
 		</div>
 			
-		<br /><br /><br /><br /><br /><br/><br/> 
+		<br /><br /><br /><br /><br />
 			<div className="text3">A dashboard to get all the requirement fullfilled</div>
 			<div className="text3">3D assets for all the product</div>
 			<div > <img  src="3d-assets.png" alt="" className="assets-img"/></div>
-			<br/><br /><br /><br /><br /><br /><br/><br/>
+			<br/><br /><br /><br /><br /><br /><br/>
 		</>
 	);
 }
