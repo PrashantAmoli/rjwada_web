@@ -16,21 +16,25 @@ const topics = [
 	'Augmented Reality',
 	'Technology',
 	'Expert Opinion',
+	'Product Update',
+	'Augmented Reality',
+	'Technology',
+	'Expert Opinion',
 ];
 
 function Blogs() {
 	const [activeTopic, setActiveTopic] = useState(0);
 	const [blogs, setBlogs] = useState([]);
 
-	useEffect(() => {
-		const fetchBlogs = async () => {
-			const res = await fetch('http://localhost:3001/blogs');
-			const data = await res.json();
-			setBlogs(data);
-		};
+	// useEffect(() => {
+	// 	const fetchBlogs = async () => {
+	// 		const res = await fetch('http://localhost:3001/blogs');
+	// 		const data = await res.json();
+	// 		setBlogs(data);
+	// 	};
 
-		fetchBlogs();
-	}, []);
+	// 	fetchBlogs();
+	// }, []);
 
 	return (
 		<Container fluid className={`${styles.pageContainer}`}>
@@ -68,15 +72,15 @@ function Blogs() {
 			</Container>
 
 			<Container fluid="xl" className={`${styles.blogsGrid}`}>
-				{blogs.map((blog, index) => (
+				{/* {blogs.map((blog, index) => (
 					<BlogCard key={index} {...blog} />
-				))}
-				{/* <Blogs />
+				))} */}
 				<Blogs />
 				<Blogs />
 				<Blogs />
 				<Blogs />
-				<Blogs /> */}
+				<Blogs />
+				<Blogs />
 			</Container>
 
 			{/* <hr />
@@ -103,9 +107,11 @@ function Blogs() {
 				</Row>
 			</Container> */}
 
-			<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
-				Load More
-			</Button>
+			<Link to="/stepin">
+				<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
+					Load More
+				</Button>
+			</Link>
 		</Container>
 	);
 }

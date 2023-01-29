@@ -4,6 +4,7 @@
 	align-items: center;
 	word-wrap: break-word;
 	min-height: 70vh;
+	padding: 2.5rem 0;
 }
 
 .pageContainer > * {
@@ -29,6 +30,7 @@
 	max-width: 900px;
 	min-height: 40vh;
 	margin: 0 auto;
+	padding: 0 0.2rem;
 	position: relative;
 
 	display: flex;
@@ -61,6 +63,7 @@
 	max-width: 900px;
 	display: flex;
 	justify-content: space-between;
+	padding: 0 0.3rem;
 }
 
 .btnContainer > button {
