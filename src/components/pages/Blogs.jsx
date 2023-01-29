@@ -16,6 +16,10 @@ const topics = [
 	'Augmented Reality',
 	'Technology',
 	'Expert Opinion',
+	'Product Update',
+	'Augmented Reality',
+	'Technology',
+	'Expert Opinion',
 ];
 
 function Blogs() {
@@ -71,12 +75,12 @@ function Blogs() {
 				{blogs.map((blog, index) => (
 					<BlogCard key={index} {...blog} />
 				))}
-				{/* <Blogs />
 				<Blogs />
 				<Blogs />
 				<Blogs />
 				<Blogs />
-				<Blogs /> */}
+				<Blogs />
+				<Blogs />
 			</Container>
 
 			{/* <hr />
@@ -103,9 +107,11 @@ function Blogs() {
 				</Row>
 			</Container> */}
 
+			<Link to="/stepin">
 			<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
 				Load More
 			</Button>
+			</Link>
 		</Container>
 	);
 }
