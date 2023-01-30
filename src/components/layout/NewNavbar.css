@@ -1,0 +1,251 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+/* Navbar */
+.emptyBlock {
+	height: 49px;
+}
+
+.navbar input[type='checkbox'],
+.navbar .hamburger-lines {
+	display: none;
+}
+
+.nav-container {
+	max-width: 1400px;
+	width: 95%;
+	margin: auto;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.96);
+	z-index: 100;
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+}
+
+.menu-items {
+	order: 2;
+	display: flex;
+	align-items: center;
+	margin: auto 0;
+}
+.logo {
+	order: 1;
+	font-size: 1.7rem;
+}
+
+.menu-items li {
+	list-style: none;
+	margin-left: 1.5rem;
+	font-size: 1.1rem;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+	color: var(--hover);
+	cursor: pointer;
+}
+
+.demoBtn {
+	background: transparent;
+	color: white;
+	font-weight: 600;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 5px 9px;
+}
+
+.integrationOption {
+	background-color: black;
+	color: white;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.dropdown-menu {
+	background-color: rgba(2, 4, 25, 0.9);
+	margin-top: 1.4rem;
+	color: white;
+	border-radius: 12x;
+	padding: 0.5rem 0;
+}
+
+@media (max-width: 850px) {
+	.navbar {
+		opacity: 0.9;
+	}
+
+	.navbar-container input[type='checkbox'],
+	.navbar-container .hamburger-lines {
+		display: block;
+	}
+
+	.navbar-container {
+		display: block;
+		position: relative;
+	}
+
+	.navbar-container input[type='checkbox'] {
+		position: absolute;
+		top: 4px;
+		right: -6px;
+		display: block;
+		height: 50px;
+		width: 50px;
+		z-index: 5;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	.navbar-container .hamburger-lines {
+		/* display: block; */
+		height: 28px;
+		width: 35px;
+		position: absolute;
+		top: 10px;
+		right: 0px;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+
+	.navbar-container .hamburger-lines .line {
+		display: block;
+		height: 4px;
+		width: 100%;
+		border-radius: 10px;
+		background: white;
+	}
+
+	/* .navbar-container .hamburger-lines  */
+	.line1 {
+		transform-origin: 0% 0%;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.line2 {
+		transition: transform 0.2s ease-in-out;
+	}
+
+	.line3 {
+		transform-origin: 0% 100%;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.menu-items {
+		padding-top: 100px;
+		height: 66vh;
+		width: 220px;
+		padding: 6rem 0.5rem;
+		transform: translate(150%);
+		display: flex;
+		position: absolute;
+		right: -12px;
+		flex-direction: column;
+		align-items: flex-start;
+		transition: transform 0.5s ease-in-out;
+		overflow: auto;
+		background-color: black;
+		backdrop-filter: blur(24px);
+	}
+
+	.navbar .menu-items li {
+		margin-bottom: 1.8rem;
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+
+	.logo {
+		position: absolute;
+		top: 12px;
+		left: 5px;
+		font-size: 1.7rem;
+		text-shadow: 0 0 1px var(--font);
+	}
+
+	.navbar-container input[type='checkbox']:checked ~ .menu-items {
+		transform: translateX(0);
+	}
+
+	.navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line1 {
+		transform: rotate(45deg);
+	}
+
+	.navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line2 {
+		transform: scaleY(0);
+	}
+
+	.navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line3 {
+		transform: rotate(-45deg);
+	}
+}
+
+@media (max-width: 500px) {
+	.navbar-container input[type='checkbox']:checked ~ .logo {
+		display: none;
+	}
+}
+
+/* Theme btn */
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	width: 50px;
+	height: 26px;
+	background-color: var(--bg);
+	display: flex;
+	border-radius: 8px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	transform: scale(1.5);
+}
+
+.ball {
+	width: 24px;
+	height: 22px;
+	background-color: var(--font);
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	border-radius: 50%;
+	transition: transform 0.2s linear;
+	cursor: grab;
+}
+.ball:hover {
+	box-shadow: 0 1px 14px 1px #aaa;
+}
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+.fa-moon {
+	color: rgba(156, 145, 124, 0.82);
+	text-shadow: 0 0 3px #aaa;
+}
+
+.fa-sun {
+	color: yellow;
+	text-shadow: 0 0 2px yellow;
+}
+/* Navbar End*/

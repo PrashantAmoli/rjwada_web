@@ -43,7 +43,7 @@ function Blogs() {
 
 				<div className={`${styles.tabbar}`}>
 					{topics.map((topic, index) => (
-						<button key={index} className={`${styles.topicBtn} ${index === 0 ? styles.selected : ''}`}>
+						<button key={index} className={`${styles.topicBtn} ${index === activeTopic ? styles.selected : ''}`}>
 							{topic}
 						</button>
 					))}
@@ -107,11 +107,9 @@ function Blogs() {
 				</Row>
 			</Container> */}
 
-			<Link to="/stepin">
-				<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
-					Load More
-				</Button>
-			</Link>
+			<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
+				<Link to="/stepin">Load More</Link>
+			</Button>
 		</Container>
 	);
 }
