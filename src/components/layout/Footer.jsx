@@ -52,7 +52,7 @@ function Footer() {
 					</div> 
 					
 
-					<div className="gridcol">
+					<div className="gridcol" style={{backgroundColor: 'transparent'}}>
 						<ul className="list">
 							
 							<li><h className="text1">Services</h></li>

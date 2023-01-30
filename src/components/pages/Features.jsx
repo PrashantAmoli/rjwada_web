@@ -22,8 +22,10 @@ function Features() {
 							<img src="feature-page-arrow.png" alt="HTML tutorial" className='social-logo-size' />
 						</Link>
 					</div>
-				</div>
+			</div>
+			
 		</div>
+		
 		<br />
 
 		<div className="container-fluid ">
