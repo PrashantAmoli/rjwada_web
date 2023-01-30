@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import { Button, Col, Row } from 'react-bootstrap';
 
+import BLOGS from '../../../blogs.json';
+
 const topics = [
 	'All',
 	'Product Update',
@@ -26,15 +28,19 @@ function Blogs() {
 	const [activeTopic, setActiveTopic] = useState(0);
 	const [blogs, setBlogs] = useState([]);
 
-	// useEffect(() => {
-	// 	const fetchBlogs = async () => {
-	// 		const res = await fetch('http://localhost:3001/blogs');
-	// 		const data = await res.json();
-	// 		setBlogs(data);
-	// 	};
+	useEffect(() => {
+		// 	const fetchBlogs = async () => {
+		// 		const res = await fetch('http://localhost:3001/blogs');
+		// 		const data = await res.json();
+		// 		setBlogs(data);
+		// 	};
 
-	// 	fetchBlogs();
-	// }, []);
+		// 	fetchBlogs();
+
+		console.log(BLOGS.blogs);
+
+		setBlogs([...BLOGS.blogs]);
+	}, []);
 
 	return (
 		<Container fluid className={`${styles.pageContainer}`}>
@@ -43,7 +49,7 @@ function Blogs() {
 
 				<div className={`${styles.tabbar}`}>
 					{topics.map((topic, index) => (
-						<button key={index} className={`${styles.topicBtn} ${index === 0 ? styles.selected : ''}`}>
+						<button key={index} className={`${styles.topicBtn} ${index === activeTopic ? styles.selected : ''}`}>
 							{topic}
 						</button>
 					))}
@@ -72,15 +78,9 @@ function Blogs() {
 			</Container>
 
 			<Container fluid="xl" className={`${styles.blogsGrid}`}>
-				{/* {blogs.map((blog, index) => (
+				{blogs.map((blog, index) => (
 					<BlogCard key={index} {...blog} />
-				))} */}
-				<Blogs />
-				<Blogs />
-				<Blogs />
-				<Blogs />
-				<Blogs />
-				<Blogs />
+				))}
 			</Container>
 
 			{/* <hr />
@@ -107,11 +107,9 @@ function Blogs() {
 				</Row>
 			</Container> */}
 
-			<Link to="/stepin">
-				<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
-					Load More
-				</Button>
-			</Link>
+			<Button variant="outline-primary" className={`${styles.loadMoreBtn}`}>
+				Load More
+			</Button>
 		</Container>
 	);
 }
