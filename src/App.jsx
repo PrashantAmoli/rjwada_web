@@ -9,11 +9,9 @@ const Root = () => {
 	return (
 		<>
 			<Navbar />
-
 			<main>
 				<Outlet />
 			</main>
-
 			<Footer />
 		</>
 	);
@@ -24,6 +22,10 @@ const routesArray = [
 		path: '/',
 		element: <Root />,
 		children: [
+			{
+				path: '/',
+				element: <Home />,
+			},
 			{
 				path: 'blogs',
 				element: <Blogs />,
