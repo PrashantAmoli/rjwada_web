@@ -20,7 +20,6 @@ import "./About.css"
 const About = () => {
     return (
         <div className="about-page ">
-           
             <div className="about-text1 " >
                 <div className="about-text1-center">
                     <div>
@@ -77,7 +76,6 @@ const About = () => {
                 </div>
                 <div className="visioncards">
                     <div className="row row-cols-1 row-cols-md-3">
-
                         <div className="col mb-4">
                             <div className="card card1">
 
@@ -86,16 +84,13 @@ const About = () => {
                                 <p className="desc">We take credit, offering the world with the most beautiful and intuitive experiences, that almost feel real through our AR/VR technologies.</p>
                             </div>
                         </div>
-
                         <div className="col mb-4">
                             <div className="card card2">
-
                                 <img src={Leadership1Img} alt="" style={{ width: "85px" }} />
                                 <h1 className="title">Leader</h1>
                                 <p className="desc">Aspiring to be the number one Global leader in the ecommerce business of AR/VR technologies </p>
                             </div>
                         </div>
-
                         <div className="col mb-4">
                             <div className="card card3">
 

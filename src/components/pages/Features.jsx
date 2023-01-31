@@ -4,7 +4,7 @@ import '../pages/Features.css';
 
 function Features() {
 	return (
-		 <div>
+		<div>
 			<div className='picture'>
 				<img src="featurepage1.png" alt="react logo" className='image8'/>
 				<div>
@@ -12,7 +12,6 @@ function Features() {
 					<h1 >"Experience the world in a whole new</h1>
 					<h1 >way with Augmented Reality."</h1>
 				</div>
-
 				<div class="row">
 					<div className='header2'>
 						<a>See demo </a>
@@ -22,7 +21,6 @@ function Features() {
 				
 				</div>
 			</div>
-			
 		</div>
 	);
 }
