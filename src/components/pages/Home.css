@@ -187,7 +187,7 @@
 	border: solid #7ee687 0.1rem;
 	border-radius: 0.75rem;
 	color: rgb(42, 213, 51);
-  font-weight: 600;
+	font-weight: 600;
 	flex-grow: 1;
 	font-size: 1.25rem;
 	height: 2.25rem;
@@ -471,7 +471,7 @@
 		flex-direction: column-reverse;
 	}
 	.container-1-image > img {
-		width: 100%;
+		width: 96%;
 		height: 100%;
 	}
 	.sub-container-1 {

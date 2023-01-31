@@ -85,10 +85,6 @@
 }
 
 @media (max-width: 850px) {
-	.navbar {
-		opacity: 0.9;
-	}
-
 	.navbar-container input[type='checkbox'],
 	.navbar-container .hamburger-lines {
 		display: block;
