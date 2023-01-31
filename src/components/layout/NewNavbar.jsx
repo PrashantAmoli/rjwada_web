@@ -29,7 +29,7 @@ export default function NewNavbar() {
 								aria-expanded="false"
 								style={{ textDecoration: 'none', color: 'white', background: 'black' }}
 							>
-								Integration
+								Integrations
 							</Link>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
 								{INTEGRATIONS.map((item, index) => (
@@ -63,7 +63,7 @@ export default function NewNavbar() {
 						</li>
 					</ul>
 					<h1 className="logo">
-						<Link href="/">
+						<Link to="/">
 							<a>rjwada</a>
 						</Link>
 					</h1>
