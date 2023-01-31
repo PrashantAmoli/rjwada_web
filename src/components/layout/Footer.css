@@ -147,8 +147,8 @@ hr.new4 {
 
 @media screen and (max-width: 625px) {
 	.footer-h2 {
-		font-size: 1.3rem;
 		margin-top: -12px;
+		font-size: 1.3rem;
 		/* visibility: hidden; */
 	}
 	.footer-h1 {
