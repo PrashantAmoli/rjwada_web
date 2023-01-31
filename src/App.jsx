@@ -23,7 +23,7 @@ const routesArray = [
 		element: <Root />,
 		children: [
 			{
-				path: '/',
+				path: '',
 				element: <Home />,
 			},
 			{
