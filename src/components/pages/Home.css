@@ -4,7 +4,7 @@
 	background-size: cover;
 }
 
-.heading {
+.heading-home{
 	/* margin: 6rem 5rem 6rem 5rem; */
 	text-align: center;
 	height: 100vh;
@@ -323,13 +323,6 @@
 	border-radius: 1rem;
 }
 
-@media screen and (max-width: 380px) {
-	.container-4-row {
-		padding: 25% 0%;
-		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-		gap: 3%;
-	}
-}
 
 @media screen and (min-width: 380px) and (max-width: 576px) {
 	.container-4-row {
@@ -339,7 +332,7 @@
 	}
 }
 @media screen and (max-width: 576px) {
-	.heading {
+	.heading-home{
 		padding: 5rem 0 5rem 0;
 		height: 50vh;
 	}
@@ -497,8 +490,25 @@
 	}
 }
 
+@media screen and (max-width: 380px) {
+	.container-4-row {
+		padding: 25% 0%;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+		gap: 3%;
+	}
+
+	.container-4-col-1-div-2 p{
+		line-height: normal;
+	}
+	.sub-1-container-4{
+		height: 400px;
+	}
+	.sub-2-container-4{
+		height: 400px;
+	}
+}
 @media screen and (min-width: 576px) and (max-width: 768px) {
-	.heading {
+	.heading-home{
 		padding: 8rem 1rem 8rem 1rem;
 		height: 60vh;
 	}
@@ -585,7 +595,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-	.heading {
+	.heading-home{
 		padding: 10rem 4rem 8rem 4rem;
 		height: 70vh;
 	}
@@ -655,7 +665,7 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-	.heading {
+	.heading-home{
 		padding: 7rem;
 		height: 80vh;
 	}
@@ -692,10 +702,10 @@
 	.container-2-subheading {
 		font-size: 0.75rem;
 	}
-	.container > div {
+	/* .container > div {
 		height: 2.5rem;
 		width: inherit;
-	}
+	} */
 	.btn1 {
 		font-size: 1.25rem;
 	}

@@ -91,7 +91,7 @@ export default function Service() {
               Why choose <span>Rjwada?</span>
             </h2>
 
-            <Col md={6} className="py-3">
+            <Col md={6} sm={12} className="py-3">
               <img src={"/icon4.png"} alt="" />
               <h3>
                 <span>Enhancing</span>
@@ -104,7 +104,7 @@ export default function Service() {
                 Lets take a closer look.
               </p>
             </Col>
-            <Col md={6} className="py-3">
+            <Col md={6} sm={12}className="py-3">
               <img src={"/logo.png"} alt="" style={{ width: 60, margin: -7 }} />
               <h3>
                 <span>Confidence</span>
@@ -116,8 +116,8 @@ export default function Service() {
               </p>
             </Col>
           </Row>
-          <Row className="py-1">
-            <Col md={6} sm={12} className="py-3">
+          <Row >
+            <Col md={6} sm={12} lg={6} className="py-3">
               <img src={"/icon6.png"} alt="" />
               <h3>
                 <span>3D Models</span>
@@ -127,7 +127,7 @@ export default function Service() {
                 your digital product. Making shopping more fun.
               </p>
             </Col>
-            <Col md={6} sm={12} className="py-3">
+            <Col md={6} sm={12} lg={6} className="py-3">
               <img src={"/icon5.png"} alt="" />
               <h3>
                 <span>Integration</span>
