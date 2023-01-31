@@ -24,7 +24,8 @@ export default function Service() {
           Easy steps for an <span>unmatched</span> experience
         </h3>
         <Row className="justify-content-md-center">
-          <Col className="div" xs={4}>
+         
+          <Col className="div" lg={3} md={6} sm={12}>
             <img src={"/icon1.png"} alt="" />
             <h4>
               Download <span>Rjwada</span> app
@@ -36,7 +37,7 @@ export default function Service() {
             <button>install</button>
           </Col>
 
-          <Col className="div" sx={4}>
+          <Col className="div" sm={12} md={5} lg={3}>
             <img src={"/icon2.png"} alt="" />
             <h4>Create an account</h4>
             <p>
@@ -45,7 +46,7 @@ export default function Service() {
             </p>
             <button>Signup</button>
           </Col>
-          <Col className="div" sx={4}>
+          <Col className="div" md={11} lg={3} sm={12}>
             <img src={"/icon3.png"} alt="" />
             <h4>Upload for 3D models</h4>
             <p>Upload your product to get the 3D models with one click. </p>
@@ -83,14 +84,14 @@ export default function Service() {
         </Row>
       </Container>
 
-      <Container className="justify-content-md-center">
+      <Container className="justify-content-md-center py-5">
         <div className="why">
-          <Row className="py-5">
-            <h2 className="text-center" style={{ marginLeft: -30 }}>
+          <Row >
+            <h2 className="text-center" >
               Why choose <span>Rjwada?</span>
             </h2>
 
-            <Col md={6}>
+            <Col md={6} className="py-3">
               <img src={"/icon4.png"} alt="" />
               <h3>
                 <span>Enhancing</span>
@@ -103,7 +104,7 @@ export default function Service() {
                 Lets take a closer look.
               </p>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="py-3">
               <img src={"/logo.png"} alt="" style={{ width: 60, margin: -7 }} />
               <h3>
                 <span>Confidence</span>
@@ -115,8 +116,8 @@ export default function Service() {
               </p>
             </Col>
           </Row>
-          <Row className="py-5">
-            <Col>
+          <Row className="py-1">
+            <Col md={6} sm={12} className="py-3">
               <img src={"/icon6.png"} alt="" />
               <h3>
                 <span>3D Models</span>
@@ -126,7 +127,7 @@ export default function Service() {
                 your digital product. Making shopping more fun.
               </p>
             </Col>
-            <Col>
+            <Col md={6} sm={12} className="py-3">
               <img src={"/icon5.png"} alt="" />
               <h3>
                 <span>Integration</span>
@@ -139,7 +140,7 @@ export default function Service() {
             </Col>
           </Row>
 
-          <div className="connect">
+          {/* <div className="connect">
             <Row>
               <Col>
                 <h2>rjwada</h2>
@@ -149,7 +150,7 @@ export default function Service() {
                 <button className="connect-button">Let's Connect</button>
               </Col>
             </Row>
-          </div>
+          </div> */}
         </div>
       </Container>
     </Container>

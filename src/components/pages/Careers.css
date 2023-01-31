@@ -2,15 +2,20 @@
 /* career-page style */
 
 .career-page {
-    background-color: #1E1E1E;
+    background-color: #000000;
     color: white;
 }
 
 .career-page .hiringbtn {
-    margin: 3rem 2rem;
+    margin: 2rem 2rem;
 }
 
 .career-page .hiringbtn button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
     width: 184px;
     height: 46px;
     left: 91px;
@@ -64,6 +69,7 @@
 
 .career-page .buttons button {
     font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -93,6 +99,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .career-page .job .jobdetail .jobtitle {
@@ -127,6 +134,11 @@
     height: 46px;
     left: 91px;
     top: 927px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     background: #D9D9D9;
     border-radius: 10px;
     color: #000000;
@@ -137,16 +149,253 @@
 }
 
 .career-page .job .jobapply span{
-    margin: 0 0.5rem;
+    
+    padding: 10px 30px;
+    margin: 10px 5px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    background: #0D99FF;
+    border-radius: 10px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 39px;
-    color: #FFFFFF;
+    font-weight: 700;
+    font-size: rem;
+    line-height: 29px;
+    width: 144px;
+    height: 46px;
+    
+}
+.jobapply{
+    float: right;
+    margin: 1.2rem 0;
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    
 }
 
 .career-page .hrinnerline {
     margin: 3rem 0;
     border: 1px solid #676767;
+}
+
+@media screen and (max-width:1920px){
+
+    .career-page .career-text1 span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: normal;
+}
+    .career-page .career-text1 span span{
+        margin-top: -10px;
+        color: #0D99FF;
+    }
+
+    .career-page .career-text2 span{
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .hiringbtn button{
+        margin-top: 50px;
+    }
+
+    #id1{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id3{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id5{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+
+    #id2{
+        font-size: 1.2rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    
+    #id4{
+        font-size: 1.2rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    #id6{
+        font-size: 1.2rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+
+    .jobapply{
+        float: right;
+        margin: 1.2rem 0;
+        /* display: flex; */
+        /* flex-direction: row; */
+        align-items: center;
+        gap: 1.2rem;
+        
+        
+    }
+
+}
+
+@media screen and (max-width:992px){
+
+    .career-page .career-text1 span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: normal;
+}
+    .career-page .career-text1 span span{
+        margin-top: -10px;
+        color: #0D99FF;
+    }
+
+    .career-page .career-text2 span{
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .hiringbtn button{
+        margin-top: 50px;
+    }
+
+    #id1{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id3{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id5{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+
+    #id2{
+        font-size: 1.2rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    
+    #id4{
+        font-size: 1.2rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    #id6{
+        font-size: 1.2rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    .jobapply{
+        float: left;
+        margin: 1.2rem 0;
+        /* display: flex; */
+        /* flex-direction: row; */
+        align-items: center;
+        gap: 1.2rem;
+        
+        
+    }
+
+
+}
+
+@media screen and (max-width:445px){
+
+    .career-page .career-text1 span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: normal;
+}
+    .career-page .career-text1 span span{
+        margin-top: -10px;
+        color: #0D99FF;
+    }
+
+    .career-page .career-text2 span{
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .hiringbtn button{
+        margin-top: 50px;
+    }
+
+    #id1{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id3{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+    #id5{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #0D99FF;
+        }
+
+    #id2{
+        font-size: 1rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    
+    #id4{
+        font-size: 1rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+    #id6{
+        font-size: 1rem;
+        font-weight: 0;
+        line-height:1.5rem;
+    }
+
+    .jobapply{
+        float: left;
+        margin: 1.2rem 0;
+        /* display: flex; */
+        /* flex-direction: row; */
+        align-items: center;
+        gap: 1.2rem;
+        
+        
+    }
+
 }

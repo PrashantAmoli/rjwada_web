@@ -8,7 +8,7 @@ html{
 .service{
     background-color: #0a0a0a;
     font-family: 'Montserrat' !important;
-    height: 400vh;
+    height: fit-content;
     color: #FFFFFF;
 }
 
@@ -38,11 +38,10 @@ html{
 .shopify p{
     color: #B9B9B9;
     font-family: 'Montserrat';
-    font-style: normal;
+    /* font-style: normal; */
     font-size: 20px;
     line-height: 29px;
-    text-align: justify;
-    width: 900px;
+    width: fit-content;
     padding-left: 51px;
     padding-top: -200px !important;
 
@@ -73,13 +72,16 @@ html{
 }
 
 .div{
-    margin:10px;
+    margin:0px 5px;
+    margin-bottom: 1rem;
     background: rgba(32, 32, 32, 0.1);
     border: 0.5px solid #FFFFFF;
     border-radius: 10px;
     height: 300px;
     position: relative;
+    overflow: hidden;
 }
+
 
 .service-info span{
     color: #0D99FF;
@@ -179,6 +181,8 @@ span{
 .why h2{
     font-weight: 600;
     margin-bottom: 100px;
+    margin-left: -30px;
+    
 }
 
 .why h3 span{
@@ -222,4 +226,17 @@ span{
     width: 217px;
     height: 46px;
     font-weight: bold;
+}
+
+@media screen and (max-width:348px) {
+    .toggle-button1,.toggle-button2{
+        width: 130px;
+    }
+
+    .demo-button{
+        margin-left: -12px;
+    }
+    .why h2{   
+     margin-left: -6px;
+    }
 }

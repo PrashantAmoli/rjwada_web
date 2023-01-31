@@ -37,7 +37,13 @@
     border-radius: 10px;
 }
 
-.navbar-toggler {
-    background-color: #ffffff;
+#navbar-toggler {
+    background-color:transparent;
+}
+
+.toggler-image{
+    width: 23px;
+    height: 23px;
+    height:fit-content
 }
 

@@ -1,106 +1,52 @@
 footer {
     text-align: center;
     background-color: transparent;
+    
 }
 
-.box-col1 {
-    
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 143px; 
-    background-color: #3CA2ED;
-  }
-.box-col2 {
-    
-    float: right;
-    width: 50%;
-    padding: 10px;
-    height: 143px; 
-    background-color: #3CA2ED;
-  }
-.footer-h1{
+
+.footer-h2{
+    margin-left: 5px;
+    margin-top: -20px;
     text-align: left;
-    margin-top: 40px;
-    margin-left: 50px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 3vw;
     line-height: 39px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: #ffffff;
 }
-.footer-h2{
-    margin-bottom: 20px;
+
+.footer-h1{
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-right: 5px;
     text-align: right;
-    margin-right: 50px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 2.8vw;
     color: #FFFFFF;
 }
 
+.gridcol {
+        
+    background-color: transparent;
+}
+.list{
+    padding-left:5px;
+    background-color: transparent;
+}
 
-.button {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    border-radius: 12px;
-    background-color: #ffffff; 
-    border: none;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
- ul li{
-    
+ul li{
+    list-style:none;
+    display:flex;
     text-align: left;
     margin: 0;
     padding: 0;
-    display:flex;  
-    list-style:none;
-    
-}
-.text{
-    margin-top:15px;
-    margin-bottom: 10px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
-}
-.text1{
-    margin-top:15px;
-    margin-bottom: 10px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #0D99FF;
-}
-.linkes{
-    padding-top: 10px;
-    text-decoration-line: none;
-    text-decoration-thickness: initial;
-    text-decoration-style: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color:#FFFFFF
+    background-color: transparent;
 }
 
 hr.new4 {
@@ -108,24 +54,166 @@ hr.new4 {
     margin-right: 0px;
     margin-bottom: 0rem;
     margin-left: 0px;
-    
     border: 1px solid #FFFFFF;
     background-color: transparent;
-  }
+}
 
-.copyright{
+.letsconnect{
+    background-color: #3CA2ED;
+    height: auto;
+}
+
+.buttonletconnect{
+    float:right;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 1vw;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding:10px 8px;
+    margin: 10px 5px;
+    margin-top:-30px;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 40% 35% 25%;
+    background-color: transparent !important;
+    padding: 10px;
+    height: auto;
+}
+
+
+@media screen and (min-width: 626px) {
+    .linkes {
+        font-size: 16px;
+        padding-top: 10px;
+        text-decoration-line: none;
+        text-decoration-thickness: initial;
+        text-decoration-style: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        color:#FFFFFF
+    }
+    .text {
+        
+        margin-top:15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+  .text1 {
+        margin-top:15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0D99FF;
+    }
+    .text2 {
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .copyright {
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;
+    }
+    .gridcol {
+        
+        background-color: transparent;
+    }
+}
+  
+@media screen and (max-width: 625px) {
+    .linkes {
+        font-size: 2.3vw;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 15px;
+        color:#FFFFFF
+    }
+    .text {
+        text-align: left;
+        margin-top:15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+  .text1 {
+      margin-top:15px;
+      margin-bottom: 10px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 1px;
+      color: #0D99FF;
+    }
+    .text2 {
+        margin-top: 7px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .copyright {
+        font-family: 'Montserrat';
+        margin-top: -10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        color: #ffffff;
+      }
+      .gridcol {
+        
+        background-color: transparent;
+    }
+  }
+
+.socialimages {
+    margin-top: -5px;
+    white-space: nowrap;
 }
 
 .social-logo-size
 {
-    width: 30px;
-    height:30px;
-    padding-left: -5px;
-    margin-right:20px;
+    line-height: 10px;
+    margin-right:5px;
+    width: 27px;
+    height:27px;
 }

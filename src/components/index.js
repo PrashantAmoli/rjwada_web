@@ -13,5 +13,6 @@ import ScheduleDemo from './pages/ScheduleDemo';
 import Stepin from './pages/Stepin';
 import Services from './pages/Services';
 import Blogs from './pages/Blogs';
+export { default as Navbar } from './layout/NewNavbar';
 
 export { Home, About, Features, Bigcommerce, ScheduleDemo, Stepin, Services, Blogs, Careers };

@@ -1,283 +1,452 @@
-
 /* About Page Style  */
 
 .about-page {
-    color: white;
-    font-family: 'Montserrat';
+	color: white;
+	font-family: 'Montserrat';
 }
 
 .about-text1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 4rem 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4rem 2rem;
 }
 
 .about-text1 span {
-    line-height: 78px;
-    font-weight: 700;
-    font-size: 60px;
-    font-family: 'Montserrat';
-    font-style: italic;
-    line-height: 78px;
+	line-height: 78px;
+	font-weight: 700;
+	font-size: 60px;
+	font-family: 'Montserrat';
+	line-height: 78px;
 }
 
-.about-text1 .about-text1-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
+.about-text1-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .about-page .white-text {
-    color: white;
+	color: white;
 }
 
-.about-page .blue-text {
-    color: #0D99FF;
+.blue-text {
+	color: #0d99ff;
+	font-style: italic;
 }
 
 .team-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .team-photo img {
-    width: 77vw;
+	width: 77vw;
 }
-
 
 .about-page .about-text2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-
-.about-page .about-us-box h1 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 61px;
-    text-align: center;
-}
+/* .about-page .about-us-box h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 61px;
+	text-align: center;
+} */
 
 .about-page .about-us-box .details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.about-page .about-us-box p {
-    width: 50%;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    color: #B9B9B9;
+.about-us-box p {
+	width: 80%;
+	max-width: 700px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+	text-align: center;
+	color: #b9b9b9;
 }
 
 .about-page .vision {
-    margin: 4rem 3rem;
+	margin: 4rem 3rem;
 }
 
 .about-page .vision .title {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 61px;
-    text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 61px;
+	text-align: center;
 }
 
 .about-page .visioncards {
-    margin: 4rem 0 0 0;
+	margin: 4rem 0 0 0;
 }
 
-.about-page .card {
-    width: 370px;
-    height: 517px;
-    border-radius: 20px;
-    padding: 2rem;
+.card {
+	width: 370px;
+	height: 517px;
+	border-radius: 20px;
+	padding: 2rem;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
 }
 
 .about-page .card .title {
-    color: #000000;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    background-color: transparent;
+	color: #000000;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	background-color: transparent;
 }
 
-.about-page .card img{
-    background-color: transparent;
+.about-page .card img {
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .about-page .card .desc {
-    background-color: transparent;
-    color: #6A6A6A;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: justify;
+	background-color: transparent;
+	color: #6a6a6a;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: justify;
 }
 
-
-
-
-
 .about-page .card.card1 {
-    background: #ECEAFF;
+	background: #eceaff;
 }
 
 .about-page .card.card2 {
-    background: #FFFFFF;
-
+	background: #ffffff;
 }
 
 .about-page .card.card3 {
-    background: #FEEAF2;
-
+	background: #feeaf2;
 }
 
 .about-page .creators {
-    margin: 6rem 2rem 0 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	margin: 6rem 2rem 0 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .about-page .creators .title-box {
-    width: 930px;
-    height: 234px;
-    margin: 6rem 0;
+	width: 930px;
+	height: 234px;
+	margin: 6rem 0;
 }
 
 .about-page .creators .title-box .title {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 78px;
 }
 
 .about-page .creators .card {
-    width: 405px;
-    height: 594px;
-    left: 0px;
-    top: 0px;
-    border-radius: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
+	width: 405px;
+	height: 594px;
+	left: 0px;
+	top: 0px;
+	border-radius: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .about-page .creators .card .linkedin {
-    background-color: #000000;
-    width: 364px;
-    height: 93px;
-    left: 20px;
-    top: 475px;
+	background-color: #000000;
+	width: 364px;
+	height: 93px;
+	left: 20px;
+	top: 475px;
 
-    background: #000000;
-    border-radius: 20px;
-    padding: 1rem;
+	background: #000000;
+	border-radius: 20px;
+	padding: 1rem;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .about-page .creators .card .linkedin .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .about-page .creators .card .linkedin .info .name {
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 22px;
+	color: #ffffff;
 }
 
 .about-page .creators .card .linkedin .info .name .role {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #737272;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #737272;
 }
 
+@media (max-width: 500px) {
+	.about-text1 {
+		font-size: 2.2rem;
+		margin: 1.2rem 0;
+		padding: 1.5rem 1rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
+	.about-page .card {
+		width: 240px;
+		height: 380px;
+		border-radius: 18px;
+	}
 
-@media (max-width : 500px) {
+	.about-page .vision {
+		margin: 4rem 1rem;
+	}
 
-    .about-text1 {
-        font-size: 2.2rem;
-        margin: 1.2rem 0;
-        padding: 1.5rem 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+	/* .about-page .creators .card {
+		width: 340px;
+		height: 500px;
+	} */
 
-    .about-page .card {
-        width: 340px;
-        height: 480px;
-        border-radius: 18px;
-    }
+	.about-page .creators .title-box {
+		width: 90vw;
+		height: max-content;
+		margin: 3rem 0 4rem;
+	}
 
-    .about-page .vision {
-        margin: 4rem 1rem;
-    }
+	.about-page .creators .title-box .title {
+		font-weight: 400;
+		font-size: 50px;
+		line-height: 50px;
+	}
 
-    .about-page .creators .card {
-        width: 340px;
-        height: 500px;
-    }
+	.about-text1 span {
+		font-weight: 400;
+		font-size: 55px;
+		line-height: 40px;
+	}
+}
 
-    .about-page .creators .title-box {
-        width: 90vw;
-        height: max-content;
-        margin: 3rem 0 4rem;
-    }
+/* Modifications by Prashant */
+.moto {
+	padding: 2.4rem 0.2rem;
+	width: 95%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
 
+.heading {
+	font-weight: 600;
+	font-size: 2.3rem;
+	text-align: center;
+	margin: 1rem auto;
+}
 
-    .about-page .creators .title-box .title {
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 50px;
-    }
+.cardsGrid {
+	position: relative;
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fill, 350px);
+	width: 100%;
+	justify-content: center;
+	align-content: space-between;
+	margin: 2rem auto 5rem auto;
+}
 
-    .about-text1 span {
-        font-weight: 400;
-        font-size: 55px;
-        line-height: 40px;
-    }
+/* vision card styles */
+
+.visionBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin: 2rem auto;
+}
+
+.visionCard {
+	width: 350px;
+	height: 480px;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.4rem;
+	align-items: start;
+	background-color: #fff;
+	position: relative;
+	padding: 1.3rem;
+}
+
+.visionCard img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+}
+
+.visionCard h2 {
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #000;
+}
+
+.visionCard p {
+	font-size: 1rem;
+	font-weight: 400;
+	color: #000;
+	padding: 0.3rem;
+	background-color: #fff;
+}
+
+/* Creator cards styles */
+.creatorCard {
+	width: 350px;
+	height: 480px;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	position: relative;
+	padding: 0.3rem;
+}
+
+.visionCard:hover,
+.creatorCard:hover {
+	box-shadow: 0px 16px 10px 7px rgb(23 0 104 / 50%);
+	transform: scale(1.02);
+}
+
+.creatorImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.creatorInfo {
+	position: absolute;
+	bottom: 0.7rem;
+	left: 0.7rem;
+	right: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 1);
+	padding: 0.5rem 0.9rem;
+	width: 95%;
+	margin: 0 auto;
+	border-radius: 14px;
+}
+
+.creatorName {
+	font-weight: 800;
+	color: white;
+	font-size: 1rem;
+}
+
+.creatorRole {
+	font-weight: 600;
+	font-size: 0.8rem;
+	color: rgb(130, 130, 130);
+}
+
+.creatorInfo img {
+	position: absolute;
+	right: 0.4rem;
+	bottom: 0.9rem;
+	width: 33px;
+	height: 33px;
+}
+.creatorInfo svg {
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+	width: 30px;
+	height: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+	.heading {
+		font-size: 1.9rem;
+	}
+
+	.visionBox {
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.heading {
+		font-size: 1.4rem;
+	}
+	.about-us-box p {
+		font-size: 0.8rem;
+		line-height: 1.2rem;
+	}
+
+	.cardsGrid {
+		grid-template-columns: repeat(auto-fill, 270px);
+	}
+	.creatorCard {
+		width: 270px;
+		height: 400px;
+	}
+
+	.visionCard {
+		width: 280px;
+		height: 400px;
+	}
 }
