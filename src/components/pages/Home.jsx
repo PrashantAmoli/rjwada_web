@@ -65,7 +65,7 @@ function Home() {
 			<Col md={5} lg={6} xl={6}>
 			<div className='sub-container-3'>
 				<button type='button' className='btn2'>Fun Facts</button>
-				<h2 className='container-3-heading' style={{color:'#7EE687'}}>20% Increase </h2>
+				<h2 className='container-3-heading' >20% Increase </h2>
 				<p >In conversion rate, when you use AR technology</p>
 				<h2 className='container-3-heading'>40% Decrease </h2>
 				<p>In product return rate, when you use AR technology</p>
