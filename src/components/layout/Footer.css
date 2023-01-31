@@ -37,7 +37,7 @@ footer {
 	background-color: transparent;
 }
 
-ul li {
+.list li {
 	list-style: none;
 	display: flex;
 	text-align: left;
@@ -83,6 +83,18 @@ hr.new4 {
 	background-color: transparent !important;
 	padding: 10px;
 	height: auto;
+}
+
+.socialimages {
+	margin-top: -5px;
+	white-space: nowrap;
+}
+
+.social-logo-size {
+	line-height: 10px;
+	margin-right: 5px;
+	width: 27px;
+	height: 27px;
 }
 
 @media screen and (min-width: 626px) {
@@ -214,16 +226,10 @@ hr.new4 {
 	.gridcol {
 		background-color: transparent;
 	}
-}
-
-.socialimages {
-	margin-top: -5px;
-	white-space: nowrap;
-}
-
-.social-logo-size {
-	line-height: 10px;
-	margin-right: 5px;
-	width: 27px;
-	height: 27px;
+	/* .social-logo-size {
+		line-height: 10px;
+		margin-right: 5px;
+		width: 20px;
+		height: 20px;
+	} */
 }

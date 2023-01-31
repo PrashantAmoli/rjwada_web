@@ -26,23 +26,23 @@ function Footer() {
 						<li><h5 className="text" >Get In Touch!</h5></li>
 						<li><h5 className="text2">Contact@rjwada.com</h5></li>
 						<li>
-						<div class="socialimage">
+						<div className="socialimage">
 							
-								<Link to="#" class="button" style={{ textDecoration: 'none',background:'transparent'}}>
+								<Link to="#" className="button" style={{ textDecoration: 'none',background:'transparent'}}>
 									<img src="instagram.png" alt="HTML tutorial" className='social-logo-size'/>
 								</Link>
 							
 							
-								<Link to="#" class="button" style={{ textDecoration: 'none',background:'transparent'}}>
+								<Link to="#" className="button" style={{ textDecoration: 'none',background:'transparent'}}>
 									<img src="linkedin.png" alt="HTML tutorial" className='social-logo-size'/>
 								</Link>
 							
 							
-								<Link to="#" class="button" style={{ textDecoration: 'none',background:'transparent'}}>
+								<Link to="#" className="button" style={{ textDecoration: 'none',background:'transparent'}}>
 									<img src="twitter.png" alt="HTML tutorial" className='social-logo-size'/>
 								</Link>
 							
-								<Link to="#" class="button" style={{ textDecoration: 'none',background:'transparent'}}>
+								<Link to="#" className="button" style={{ textDecoration: 'none',background:'transparent'}}>
 									<img src="discord.png" alt="HTML tutorial" className='social-logo-size'/>
 								</Link>
 							
@@ -55,7 +55,7 @@ function Footer() {
 					<div className="gridcol" style={{backgroundColor: 'transparent'}}>
 						<ul className="list">
 							
-							<li><h className="text1">Services</h></li>
+							<li><h1 className="text1">Services</h1></li>
 							<li>
 								<Link to="#" className='linkes' style={{ textDecoration: 'none',color:'white' }}>
 								Augmented Reality
@@ -103,7 +103,7 @@ function Footer() {
 					
 				</div>
 			
-			<hr class="new4"></hr>
+			<hr className="new4"></hr>
 			<div className="copyright text-center py-3">© 2022 rjwada All rights reserved</div>
 	</footer>
 	  );

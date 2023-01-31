@@ -1,4 +1,4 @@
-.not-found {
+.notFound {
 	background: url('/bg.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -15,14 +15,14 @@
 	z-index: 999;
 }
 
-.svg-404 {
+.svg404 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-top: -250px;
 	margin-left: -400px;
 }
-.message-box-404 {
+.messageBox404 {
 	height: 200px;
 	width: 380px;
 	position: absolute;
@@ -33,16 +33,17 @@
 	color: #fff;
 	font-family: Roboto;
 	font-weight: 300;
+	user-select: none;
 }
-.message-box-404 h1 {
+.messageBox404 h1 {
 	font-size: 60px;
 	line-height: 46px;
 	margin-bottom: 40px;
 }
-.buttons-con .action-link-wrap {
+.buttonsCon .actionLinkWrap {
 	margin-top: 40px;
 }
-.buttons-con .action-link-wrap a {
+.buttonsCon .actionLinkWrap a {
 	background-color: rgba(90, 0, 180, 1);
 	padding: 8px 25px;
 	border-radius: 4px;
@@ -54,29 +55,29 @@
 	text-decoration: none;
 	margin-right: 10px;
 }
-.buttons-con .action-link-wrap a:hover {
+.buttonsCon .actionLinkWrap a:hover {
 	background: #5a5c6c;
 	color: #fff;
 }
 
-#Polygon-1,
-#Polygon-2,
-#Polygon-3,
-#Polygon-4,
-#Polygon-4,
-#Polygon-5 {
+#Polygon1,
+#Polygon2,
+#Polygon3,
+#Polygon4,
+#Polygon4,
+#Polygon5 {
 	animation: float 1s infinite ease-in-out alternate;
 }
-#Polygon-2 {
+#Polygon2 {
 	animation-delay: 0.2s;
 }
-#Polygon-3 {
+#Polygon3 {
 	animation-delay: 0.4s;
 }
-#Polygon-4 {
+#Polygon4 {
 	animation-delay: 0.6s;
 }
-#Polygon-5 {
+#Polygon5 {
 	animation-delay: 0.8s;
 }
 
@@ -86,14 +87,14 @@
 	}
 }
 @media (max-width: 700px) {
-	.svg-404 {
+	.svg404 {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		margin-top: -250px;
 		margin-left: -190px;
 	}
-	.message-box-404 {
+	.messageBox404 {
 		top: 50%;
 		left: 50%;
 		margin-top: -100px;
