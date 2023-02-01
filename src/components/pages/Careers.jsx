@@ -69,7 +69,7 @@ const Careers = () => {
                 <div className="job">
                     <div className="jobdetail">
                         <span className="jobtitle" id="id3">Computer Vision Engineer</span>
-                        <span className="jobdesc" id="id4">We’re looking for experience Machine Learning with Computer Vision Engineer to join our team.</span>
+                        <span className="jobdesc" id="id4">We`re looking for experience Machine Learning with Computer Vision Engineer to join our team.</span>
                         
                         <div className="container-fluid ">
                             <div className=' row '>
@@ -102,7 +102,7 @@ const Careers = () => {
             <div className="job">
                     <div className="jobdetail">
                         <span className="jobtitle" id="id3">Augmented Reality Developer</span>
-                        <span className="jobdesc" id="id4">We’re looking for a Augmented Reality Designer and Creator to join our team.</span>
+                        <span className="jobdesc" id="id4">We`re looking for a Augmented Reality Designer and Creator to join our team.</span>
                         
                         <div className="container-fluid ">
                             <div className=' row '>
