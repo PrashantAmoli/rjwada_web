@@ -1,6 +1,6 @@
 // import '../../styles/NotFound.css';
 import Link from 'next/link';
-import styles from '../styles/NotFound.module.css';
+import styles from '@/styles/NotFound.module.css';
 
 // TODO - add a go back to the previous page fuction to button
 export default function NotFound() {

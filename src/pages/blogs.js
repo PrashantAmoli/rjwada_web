@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from '../styles/Blogs.module.css';
-import BlogCard from '../components/cards/BlogCard';
+import BlogCard from '@/components/cards/BlogCard';
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import { Button, Col, Row } from 'react-bootstrap';
@@ -66,7 +66,8 @@ function Blogs() {
 						<h2>Why AR clothing try-on is nearly here?</h2>
 
 						<p>
-							The ability to try on clothes digitally has been a long-term goal that tech companies of all sizes are close to reaching. Here's why.
+							The ability to try on clothes digitally has been a long-term goal that tech companies of all sizes are close to reaching. Here&apos;s
+							why.
 						</p>
 
 						<Link href={`/`}>

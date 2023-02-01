@@ -2,8 +2,8 @@
 // import Vector1 from '../../images/vector1.png';
 // import Vector from '../../images/location-marker.png';
 
-const vector1 = '/images/vector1.png';
-const vector = '/images/location-marker.png';
+const Vector1 = '/images/vector1.png';
+const Vector = '/images/location-marker.png';
 
 export default function Hiring() {
 	return (
