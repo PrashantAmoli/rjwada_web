@@ -1,42 +1,45 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import TeamPhoto from '../../images/team-img.png';
-import Rating1Img from '../../images/rating1.png';
-import Leadership1Img from '../../images/leadership1.png';
-import Pattern1Img from '../../images/pattern1.png';
-import Linkedin1Img from '../../images/linkedin1.png';
+// import TeamPhoto from '../../images/team-img.png';
+// import Rating1Img from '../../images/rating1.png';
+// import Leadership1Img from '../../images/leadership1.png';
+// import Pattern1Img from '../../images/pattern1.png';
+// import Linkedin1Img from '../../images/linkedin1.png';
 
-import AbhinavVermaImg from '../../images/abhinav-verma.png';
-import AdityaAnandImg from '../../images/aditya-anand.png';
-import AnkitImg from '../../images/ankit.png';
-import RajvardhanRayImg from '../../images/rajvardhan-ray.png';
-import SugandhMalikImg from '../../images/sugandh-malik.png';
-import YashVardhanSinghImg from '../../images/yash-vardhan-singh.png';
+// import AbhinavVermaImg from '../../images/abhinav-verma.png';
+// import AdityaAnandImg from '../../images/aditya-anand.png';
+// import AnkitImg from '../../images/ankit.png';
+// import RajvardhanRayImg from '../../images/rajvardhan-ray.png';
+// import SugandhMalikImg from '../../images/sugandh-malik.png';
+// import YashVardhanSinghImg from '../../images/yash-vardhan-singh.png';
 
 import './About.css';
+
+const TeamPhoto = '/images/team-img.png';
+const Linkedin1Img = '/images/linkedin1.png';
 
 const VISION = [
 	{
 		title: 'Experience',
 		desc: 'We take credit, offering the world with the most beautiful and intuitive experiences, that almost feel real through our AR/VR technologies.',
-		img: Rating1Img,
+		img: '/images/rating1.png',
 	},
 	{
 		title: 'Leader',
 		desc: 'Aspiring to be the number one Global leader in the ecommerce business of AR/VR technologies',
-		img: Leadership1Img,
+		img: '/images/leadership1.png',
 	},
 	{
 		title: 'Innovation',
 		desc: 'We are the pioneers of AR/VR technologies in the ecommerce industry, and we are here to stay.',
-		img: Pattern1Img,
+		img: '/images/pattern1.png',
 	},
 ];
 
 const TEAM = [
 	{
 		name: 'Abhinav Verma',
-		img: AbhinavVermaImg,
+		img: '/images/abhinav-verma.png',
 		linkedin: 'https://www.linkedin.com/in/abhinav-verma-1a1b3b1a1/',
 		role: 'Co-Founder & CEO',
 	},
@@ -48,25 +51,25 @@ const TEAM = [
 	},
 	{
 		name: 'Ankit Yadav',
-		img: AnkitImg,
+		img: '/images/ankit.png',
 		linkedin: 'https://www.linkedin.com/in/ankit-agarwal-0a8b3b1a1/',
 		role: 'Technical Lead',
 	},
 	{
 		name: 'Aditya Anand',
-		img: AdityaAnandImg,
+		img: '/images/aditya-anand.png',
 		linkedin: 'https://www.linkedin.com/in/aditya-anand-0a8b3b1a1/',
 		role: 'Brand Success Manager',
 	},
 	{
 		name: 'Rajvardhan Ray',
-		img: RajvardhanRayImg,
+		img: '/images/rajvardhan-ray.png',
 		linkedin: 'https://www.linkedin.com/in/rajvardhan-ray-0a8b3b1a1/',
 		role: 'UI/UX Lead',
 	},
 	{
 		name: 'Sugandh Malik',
-		img: SugandhMalikImg,
+		img: '/images/sugandh-malik.png',
 		linkedin: 'https://www.linkedin.com/in/sugandh-malik-0a8b3b1a1/',
 		role: 'Senior 3D Generalist',
 	},
