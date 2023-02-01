@@ -9,13 +9,13 @@ export default function NewNavbar() {
 			<nav className="navbar">
 				<div className="navbar-container nav-container">
 					<input type="checkbox" name="" id="" />
-					<div className="hamburger-lines">
-						<span className="line line1"></span>
-						<span className="line line2"></span>
-						<span className="line line3"></span>
+					<div className="hamburger-lines-nav">
+						<span className="line-nav line1-nav"></span>
+						<span className="line-nav line2-nav"></span>
+						<span className="line-nav line3-nav"></span>
 					</div>
 
-					<ul className="menu-items">
+					<ul className="menu-items-nav">
 						<li>
 							<Link to="/features">Features</Link>
 						</li>
@@ -56,13 +56,13 @@ export default function NewNavbar() {
 						</li>
 						<li>
 							<div>
-								<button className="demoBtn">
+								<button className="demoBtn-nav">
 									<Link to="/scheduleDemo">Schedule a Demo</Link>
 								</button>
 							</div>
 						</li>
 					</ul>
-					<h1 className="logo">
+					<h1 className="logo-nav">
 						<Link to="/">
 							<a>rjwada</a>
 						</Link>
@@ -70,7 +70,7 @@ export default function NewNavbar() {
 				</div>
 			</nav>
 
-			<div className="emptyBlock"></div>
+			<div className="emptyBlock-nav"></div>
 		</>
 	);
 }
