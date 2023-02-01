@@ -1,0 +1,235 @@
+.footer_container {
+	text-align: center;
+	background-color: transparent;
+}
+
+.footer-h2 {
+	margin-left: 5px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 39px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #ffffff;
+}
+
+.footer-h1 {
+	padding-top: 0px;
+	margin-top: 10px;
+	margin-right: 5px;
+	text-align: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2rem;
+	color: #ffffff;
+}
+
+.gridcol {
+	background-color: transparent;
+}
+.list_footer {
+	padding-left: 5px;
+	background-color: transparent;
+}
+
+.list_footer li {
+	list-style: none;
+	display: flex;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+.new4 {
+	margin-top: 0rem;
+	margin-right: 0px;
+	margin-bottom: 0rem;
+	margin-left: 0px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+}
+
+.letsconnect {
+	background-color: #3ca2ed;
+	height: auto;
+	padding: 0 4rem;
+}
+
+.buttonletconnect {
+	float: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.9rem;
+	border-radius: 6px;
+	background-color: #ffffff;
+	color: black;
+	padding: 4px 15px;
+	margin: 10px 5px;
+	margin-top: -30px;
+	cursor: pointer;
+}
+
+.grid_container {
+	display: grid;
+	box-sizing: border-box;
+	grid-template-columns: 40% 35% 25%;
+	background-color: transparent !important;
+	padding: 10px;
+	height: auto;
+}
+
+.socialimages {
+	margin-top: -5px;
+	white-space: nowrap;
+}
+
+.social-logo-size {
+	line-height: 10px;
+	margin-right: 5px;
+	width: 27px;
+	height: 27px;
+}
+
+@media screen and (min-width: 626px) {
+	.footer-h2,
+	.footer-h1 {
+		font-size: 1.3rem;
+	}
+	.linkes {
+		font-size: 16px;
+		padding-top: 10px;
+		text-decoration-line: none;
+		text-decoration-thickness: initial;
+		text-decoration-style: none;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		line-height: 20px;
+		color: #ffffff;
+	}
+	.text {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 29px;
+		color: #ffffff;
+		text-align: left;
+	}
+	.text1 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+		color: #0d99ff;
+	}
+	.text2 {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 29px;
+		color: #ffffff;
+		text-align: left;
+	}
+	.copyright {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+		color: #ffffff;
+	}
+	.gridcol {
+		background-color: transparent;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	.footer-h2 {
+		margin-top: -12px;
+		font-size: 1.3rem;
+		/* visibility: hidden; */
+	}
+	.footer-h1 {
+		font-size: 0.9rem;
+	}
+
+	.letsconnect {
+		padding: 0;
+	}
+	.buttonletconnect {
+		font-size: 0.8rem;
+	}
+
+	.linkes {
+		font-size: 2.3vw;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		line-height: 15px;
+		color: #ffffff;
+	}
+	.text {
+		text-align: left;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 1px;
+		color: #ffffff;
+		text-align: left;
+	}
+	.text1 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 1px;
+		color: #0d99ff;
+	}
+	.text2 {
+		margin-top: 7px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 9px;
+		line-height: 20px;
+		color: #ffffff;
+		text-align: left;
+	}
+	.copyright {
+		font-family: 'Montserrat';
+		margin-top: -10px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 8px;
+		line-height: 10px;
+		color: #ffffff;
+	}
+	.gridcol {
+		background-color: transparent;
+	}
+	/* .social-logo-size {
+		line-height: 10px;
+		margin-right: 5px;
+		width: 20px;
+		height: 20px;
+	} */
+}

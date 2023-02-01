@@ -1,0 +1,244 @@
+/* Page styles */
+.pageContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	background-color: black;
+	padding: 0;
+	padding-bottom: 6rem;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	background-image: url('/blog-header.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	width: 100%;
+	min-height: 300px;
+	position: relative;
+}
+
+.header > * {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header > h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: left;
+	color: #ffffff;
+}
+
+.tabbar {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	backdrop-filter: blur(10px);
+	background-color: #333333;
+	border-radius: 5rem;
+	height: 3.3rem;
+	padding: 0.4rem;
+	overflow-y: hidden;
+	overflow-x: scroll;
+
+	-ms-overflow-style: none;
+	/* Firefox */
+	scrollbar-width: none;
+}
+
+.tabbar::-webkit-scrollbar {
+	display: none;
+}
+
+.topicBtn {
+	height: 40px;
+	width: fit-content;
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	border-radius: 5rem;
+	padding: 0.2rem 1.2rem;
+	outline: none;
+	font-weight: 600;
+	scroll-behavior: smooth;
+	display: inline-block;
+	word-break: keep-all;
+	white-space: nowrap;
+	word-wrap: none;
+	/* overflow-y: hidden; */
+}
+
+.topicBtn:hover {
+	background-color: #ffffff;
+	color: #333333;
+	transform: scale(1.03);
+}
+
+.selected {
+	background-color: #ffffff;
+	color: #333333;
+}
+
+/* Main Article: why AR tryon......? */
+.mainArticle {
+	/* display: grid; */
+	/* grid-template-columns: 1fr 1.5fr; */
+	/* width: 72%; */
+	background-color: #a026ff;
+	border-radius: 4.4rem;
+	overflow: hidden;
+	padding: 0;
+	/* margin: 0 auto; Center the article */
+}
+
+.mainArticleImage {
+	padding: 0;
+}
+
+.mainArticleImage > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.mainArticleBody {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: flex-start;*/
+	gap: 1rem;
+	margin: 5% 0 0 0;
+	padding: 2.5rem 1rem;
+	word-wrap: break-word;
+	text-decoration: none;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.mainArticleBody > h2 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	line-height: 0.9rem;
+	color: #ffffff;
+	letter-spacing: 0.3rem;
+	line-height: 4rem;
+}
+
+.mainArticleBody > p {
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: #e4e4e4;
+	letter-spacing: 0.1rem;
+	line-height: 1.3rem;
+}
+
+.mainArticleBody > a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	line-height: 1.3rem;
+}
+
+.link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	line-height: 1.3rem;
+}
+
+.link:hover {
+	color: #c4d9ff;
+}
+
+/*  */
+.blogsGrid {
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fill, 350px);
+	/* width: 100%; */
+	justify-content: space-around;
+	/* justify-content: center; */
+	/* align-content: space-between; */
+}
+
+/* Card Styles */
+.blogCard {
+	width: 100%;
+	/* max-width: 400px; */
+	height: fit-content;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1rem;
+
+	padding: 0.2rem;
+}
+
+.blogThumbnail {
+	width: 100%;
+	/* height: 100%; */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	border-radius: 2rem;
+}
+
+.blogThumbnail:hover {
+	transform: scale(1.02);
+	/* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.blogTopic {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #0099ef;
+	letter-spacing: 0.05rem;
+}
+
+.blogTitle {
+	font-weight: 600;
+	font-size: 1.05rem;
+	letter-spacing: 0.03rem;
+	word-wrap: break-word;
+}
+
+.blogLink {
+	text-decoration: none;
+	color: #ffffff;
+	gap: 1rem;
+}
+
+.blogLink:hover {
+	text-decoration: none;
+	color: #ffffff;
+	gap: 1rem;
+}
+
+.loadMoreBtn {
+	width: 80%;
+	max-width: 350px;
+	margin: 0 auto;
+	/* border: none; */
+}
+
+@media screen and (max-width: 666px) {
+	.mainArticle {
+		border-radius: 2.2rem;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.header > * {
+		width: 99%;
+	}
+}
