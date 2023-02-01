@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import SugandhMalikImg from '../../images/sugandh-malik.png';
 // import YashVardhanSinghImg from '../../images/yash-vardhan-singh.png';
 
-// import './About.css';
+// import '../../styles/About.css';
 
 const TeamPhoto = '/images/team-img.png';
 const Linkedin1Img = '/images/linkedin1.png';
