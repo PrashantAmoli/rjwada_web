@@ -1,10 +1,8 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import style from '../styles/Features.module.css';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 function Features() {
 	return (
@@ -12,14 +10,14 @@ function Features() {
 			<div className={`${style.article}`}>
 				<img className={`${style.image}`} src="featurepage1.png" alt="background" />
 
-				<div class="row">
+				<div className="row">
 					<div className={`${style.header}`}>
 						<h1 className={`${style.headertext1}`}>"Experience the world in a whole new</h1>
 						<h1 className={`${style.headertext1}`}>way with Augmented Reality."</h1>
 						<a className={`${style.headertext2}`} style={{ textDecoration: 'none', color: 'white' }}>
 							See Demo{' '}
 						</a>
-						<Link to="#" style={{ textDecoration: 'none', color: 'white' }}>
+						<Link href="/" style={{ textDecoration: 'none', color: 'white' }}>
 							<img src="feature-page-arrow.png" alt="HTML tutorial" className={`${style.social_logo_size}`} />
 						</Link>
 					</div>

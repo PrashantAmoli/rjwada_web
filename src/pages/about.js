@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Image from 'next/image';
 
 // import TeamPhoto from '../../images/team-img.png';
 // import Rating1Img from '../../images/rating1.png';
@@ -111,7 +112,7 @@ const About = () => {
 					<h1 className="about_heading">About us</h1>
 					<div className="about_details">
 						<p>RJWADA is an augmented reality based startup, an initiative by IITD students. Enhancing the online.</p>
-						<p>Shopping experience for our users is our sole motto. Easy, Reliable, Trustworthy ain't just attractive</p>
+						<p>Shopping experience for our users is our sole motto. Easy, Reliable, Trustworthy ain&apos;t just attractive</p>
 						<p>adjectives we mean it. We are shaping the future of shopping via our AR and 3D try on.</p>
 						<p>
 							We are the present. <br />
@@ -189,33 +190,8 @@ const About = () => {
 							<div className="creatorInfo">
 								<span className="creatorName">{item.name}</span>
 								<span className="creatorRole">{item.role}</span>
-								<a href={item.linkedin} target="_blank">
-									<svg
-										fill="#ffffff"
-										version="1.1"
-										id="Capa_1"
-										xmlns="http://www.w3.org/2000/svg"
-										xmlns:xlink="http://www.w3.org/1999/xlink"
-										width="64px"
-										height="64px"
-										viewBox="0 0 93.06 93.06"
-										xml:space="preserve"
-									>
-										<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-										<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-										<g id="SVGRepo_iconCarrier">
-											{' '}
-											<g>
-												{' '}
-												<g>
-													{' '}
-													<path d="M11.185,0.08C5.004,0.08,0.001,5.092,0,11.259c0,6.173,5.003,11.184,11.186,11.184c6.166,0,11.176-5.011,11.176-11.184 C22.362,5.091,17.351,0.08,11.185,0.08z"></path>{' '}
-													<rect x="1.538" y="30.926" width="19.287" height="62.054"></rect>{' '}
-													<path d="M69.925,29.383c-9.382,0-15.673,5.144-18.248,10.022h-0.258v-8.479H32.921H32.92v62.053h19.27V62.281 c0-8.093,1.541-15.932,11.575-15.932c9.89,0,10.022,9.256,10.022,16.451v30.178H93.06V58.942 C93.06,42.235,89.455,29.383,69.925,29.383z"></path>{' '}
-												</g>{' '}
-											</g>{' '}
-										</g>
-									</svg>
+								<a href={item.linkedin} target="_blank" rel="noreferrer">
+									<Image src="/linkedin.svg" alt="linkedin" width={20} height={20} />
 								</a>
 							</div>
 						</div>

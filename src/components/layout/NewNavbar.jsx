@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 // import '../../styles/NewNavbar.css';
+
+import Link from 'next/link';
 
 const INTEGRATIONS = [{ name: 'Shopify', path: '/services' }];
 
@@ -17,10 +18,10 @@ export default function NewNavbar() {
 
 					<ul className="menu-items-nav">
 						<li>
-							<Link to="/features">Features</Link>
+							<Link href="/features">Features</Link>
 						</li>
 						<li className="nav-item dropdown">
-							<Link
+							<a
 								className="nav-link dropdown-toggle"
 								id="navbarDropdown"
 								role="button"
@@ -30,12 +31,12 @@ export default function NewNavbar() {
 								style={{ textDecoration: 'none', color: 'white', background: 'black' }}
 							>
 								Integrations
-							</Link>
+							</a>
 							<div className="dropdown-menu" aria-labelledby="navbarDropdown">
 								{INTEGRATIONS.map((item, index) => (
 									<Link
 										key={index}
-										to={item.path}
+										href={item.path}
 										className="dropdown-item"
 										style={{
 											textDecoration: 'none',
@@ -49,23 +50,21 @@ export default function NewNavbar() {
 							</div>
 						</li>
 						<li>
-							<Link to="/careers">Careers</Link>
+							<Link href="/careers">Careers</Link>
 						</li>
 						<li>
-							<Link to="/about">About Us</Link>
+							<Link href="/about">About Us</Link>
 						</li>
 						<li>
 							<div>
 								<button className="demoBtn-nav">
-									<Link to="/scheduleDemo">Schedule a Demo</Link>
+									<Link href="/scheduleDemo">Schedule a Demo</Link>
 								</button>
 							</div>
 						</li>
 					</ul>
 					<h1 className="logo-nav">
-						<Link to="/">
-							<a>rjwada</a>
-						</Link>
+						<Link href="/">rjwada</Link>
 					</h1>
 				</div>
 			</nav>

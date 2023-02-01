@@ -13,7 +13,7 @@ const Careers = () => {
 		<div className="career-page">
 			<Container fluid>
 				<div className="hiringbtn">
-					<button onclick="/">We're hiring!</button>
+					<button onClick="/">We&apos;re hiring!</button>
 				</div>
 				<div className="career-text1">
 					<span>
@@ -22,7 +22,7 @@ const Careers = () => {
 				</div>
 				<div className="career-text2">
 					<span>
-						We're looking for passionate people to join us on our mission. We value flat hierarchies, clear communication, and full ownership and
+						We&apos;re looking for passionate people to join us on our mission. We value flat hierarchies, clear communication, and full ownership and
 						responsibility.
 					</span>
 				</div>
@@ -46,7 +46,7 @@ const Careers = () => {
 								Product Designer
 							</h2>
 							<span className="jobdesc" id="id2">
-								We're looking for a mid-level product designer to join our team.
+								We&apos;re looking for a mid-level product designer to join our team.
 							</span>
 
 							<div className="container-fluid ">

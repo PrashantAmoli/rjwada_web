@@ -3,10 +3,10 @@ import styles from '../styles/Blogs.module.css';
 import BlogCard from '../components/cards/BlogCard';
 // Bootstrap
 import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
 import { Button, Col, Row } from 'react-bootstrap';
 
 import BLOGS from '../../blogs.json';
+import Link from 'next/link';
 
 const topics = [
 	'All',
@@ -69,7 +69,7 @@ function Blogs() {
 							The ability to try on clothes digitally has been a long-term goal that tech companies of all sizes are close to reaching. Here's why.
 						</p>
 
-						<Link to={'/scheduleDemo'} className={``}>
+						<Link href={`/`}>
 							<img src="/blog-arrow.svg" alt="" />
 							&nbsp;READ FULL ARTICLE
 						</Link>

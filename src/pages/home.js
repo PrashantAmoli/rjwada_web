@@ -1,23 +1,27 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Link from 'next/link';
 // import '../../styles/Home.css';
+
+const GIF1 = '/videos/home1.m4k';
+const GIF2 = '/videos/home2.gif';
+const GIF3 = '/videos/home3.mp4';
 
 function Home() {
 	return (
 		<Container fluid className="home_page">
 			<Container fluid className="heading-home">
-				<h1 class="text-lg-center" className="heading-1">
+				<h1 className="text-lg-center heading-1">
 					SCALE YOUR{' '}
 					<span className="blue-text">
 						<em>BUSINESS</em>{' '}
 					</span>{' '}
 					WITH US
 				</h1>
-				<h6 class="text-lg-center" className="sub-heading-1">
+				<h6 className="text-lg-center sub-heading-1">
 					Dynamic Deep tech to increase your conversion rate <br /> and lower the return rate on your products
 				</h6>
 				<div className="button-0">
@@ -31,7 +35,7 @@ function Home() {
 			<Container fluid className="container-1">
 				<Row className="container-1-row">
 					<Col className="text-center container-1-image">
-						<img src={'/ezgif 5.png'} />
+						<img src={GIF1} />
 					</Col>
 					<Col className="container-col-1">
 						<div className="sub-container-1">
@@ -67,7 +71,7 @@ function Home() {
 					</h6>
 					<div className="container-2-div">
 						<button type="button" className="btn1">
-							STEP-IN
+							<Link href="/stepin">STEP-IN</Link>
 						</button>
 					</div>
 				</Row>
@@ -104,7 +108,7 @@ function Home() {
 						<div className="container-4-col-1-div-2">
 							<h2>
 								Integrate on <br />
-								<span class="blue-text">dashboard</span>
+								<span className="blue-text">dashboard</span>
 							</h2>
 							<p>
 								Easy Integration with <br />
@@ -122,7 +126,7 @@ function Home() {
 						</div>
 						<div className="container-4-col-2-div-2">
 							<h2>
-								Upload <span class="blue-text">3D</span> <br />
+								Upload <span className="blue-text">3D</span> <br />
 								Models
 							</h2>
 							<p>

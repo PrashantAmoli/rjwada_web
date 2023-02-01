@@ -1,4 +1,3 @@
-import React from 'react';
 // import "./Careers.css"
 // import Vector1 from '../../images/vector1.png';
 // import Vector from '../../images/location-marker.png';

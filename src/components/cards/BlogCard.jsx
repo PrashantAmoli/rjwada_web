@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import styles from '../../styles/Blogs.module.css';
+import Link from 'next/link';
+import styles from '@/styles/Blogs.module.css';
 
 const temp = {
 	topic: 'Product Update',
@@ -18,7 +18,7 @@ export default function BlogCard({ thumbnail = temp.thumbnail, topic = temp.topi
 
 				<p className={`${styles.blogTitle}`}>{title}</p>
 
-				<Link to={link} className={`${styles.blogLink}`}>
+				<Link href={`${link}`} className={`${styles.blogLink}`}>
 					<img src="/blog-arrow.svg" alt="" />
 					&nbsp;READ FULL ARTICLE
 				</Link>

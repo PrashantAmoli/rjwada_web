@@ -1,6 +1,5 @@
-import React from 'react';
+import Link from 'next/link';
 // import '../../styles/Footer.css';
-import { Link } from 'react-router-dom';
 
 function Footer() {
 	return (
@@ -10,7 +9,7 @@ function Footer() {
 					<div className="col-md-12 ">
 						<h1 className="footer-h1">We’re here to help your business</h1>
 						<h1 className="footer-h2">rjwada</h1>
-						<Link to="#" className="buttonletconnect" style={{ textDecoration: 'none', color: 'black' }}>
+						<Link href={`/`} className="buttonletconnect" style={{ textDecoration: 'none', color: 'black' }}>
 							Let’s Connect
 						</Link>
 					</div>
@@ -28,19 +27,19 @@ function Footer() {
 						</li>
 						<li>
 							<div className="socialimage">
-								<Link to="#" className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
+								<Link href={`/`} className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
 									<img src="instagram.png" alt="HTML tutorial" className="social-logo-size" />
 								</Link>
 
-								<Link to="#" className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
+								<Link href={`/`} className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
 									<img src="linkedin.png" alt="HTML tutorial" className="social-logo-size" />
 								</Link>
 
-								<Link to="#" className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
+								<Link href={`/`} className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
 									<img src="twitter.png" alt="HTML tutorial" className="social-logo-size" />
 								</Link>
 
-								<Link to="#" className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
+								<Link href={`/`} className="button" style={{ textDecoration: 'none', background: 'transparent' }}>
 									<img src="discord.png" alt="HTML tutorial" className="social-logo-size" />
 								</Link>
 							</div>
@@ -54,22 +53,22 @@ function Footer() {
 							<h1 className="text1">Services</h1>
 						</li>
 						<li>
-							<Link to="#" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
+							<Link href={`/`} className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
 								Augmented Reality
 							</Link>
 						</li>
 						<li>
-							<Link to="#" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
+							<Link href={`/`} className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
 								Virtual Reality
 							</Link>
 						</li>
 						<li>
-							<Link to="#" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
+							<Link href={`/`} className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
 								3d & UI/UX
 							</Link>
 						</li>
 						<li>
-							<Link to="#" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
+							<Link href={`/`} className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
 								Shopify Integration
 							</Link>
 						</li>
@@ -82,17 +81,17 @@ function Footer() {
 							<h5 className="text1">Insights</h5>
 						</li>
 						<li>
-							<Link to="/Blogs" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
+							<Link href="/Blogs" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
 								Blogs
 							</Link>
 						</li>
 						<li>
-							<Link to="#" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
+							<Link href={`/`} className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
 								Case Study
 							</Link>
 						</li>
 						<li>
-							<Link to="#" className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
+							<Link href={`/`} className="linkes" style={{ textDecoration: 'none', color: 'white' }}>
 								Newsroom
 							</Link>
 						</li>
