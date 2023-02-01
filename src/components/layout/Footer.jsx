@@ -10,7 +10,7 @@ function Footer() {
 						<h1 className="footer-h1">We’re here to help your business</h1>
 						<h1 className="footer-h2">rjwada</h1>
 						<Link href={`/`} className="buttonletconnect" style={{ textDecoration: 'none', color: 'black' }}>
-							Let’s Connect
+							Let&apos;s Connect
 						</Link>
 					</div>
 				</div>
@@ -23,7 +23,7 @@ function Footer() {
 							<h5 className="text">Get In Touch!</h5>
 						</li>
 						<li>
-							<h5 className="text2">Contact@rjwada.com</h5>
+							<h5 className="text2">contact@rjwada.com</h5>
 						</li>
 						<li>
 							<div className="socialimage">
