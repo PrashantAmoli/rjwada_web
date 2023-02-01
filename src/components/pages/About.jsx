@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import SugandhMalikImg from '../../images/sugandh-malik.png';
 // import YashVardhanSinghImg from '../../images/yash-vardhan-singh.png';
 
-import './About.css';
+// import './About.css';
 
 const TeamPhoto = '/images/team-img.png';
 const Linkedin1Img = '/images/linkedin1.png';
@@ -95,8 +95,8 @@ const About = () => {
 				</div>
 			</div> */}
 
-			<div className="moto">
-				<h1 className="heading">
+			<div className="about_moto">
+				<h1 className="about_heading">
 					We at rjwada are creating <span className="blue-text">high customer engagement</span> and{' '}
 					<span className="blue-text">low return rates</span> with our future ready AR tech
 				</h1>
@@ -108,8 +108,8 @@ const About = () => {
 
 			<div className="about-text2 my-5">
 				<div className="about-us-box">
-					<h1 className="heading">About us</h1>
-					<div className="details">
+					<h1 className="about_heading">About us</h1>
+					<div className="about_details">
 						<p>RJWADA is an augmented reality based startup, an initiative by IITD students. Enhancing the online.</p>
 						<p>Shopping experience for our users is our sole motto. Easy, Reliable, Trustworthy ain't just attractive</p>
 						<p>adjectives we mean it. We are shaping the future of shopping via our AR and 3D try on.</p>
@@ -123,7 +123,7 @@ const About = () => {
 			</div>
 
 			<div className="vision">
-				<h1 className="heading">Our Vision </h1>
+				<h1 className="about_heading">Our Vision </h1>
 
 				<div className="visionBox">
 					{VISION.map((item, index) => (
@@ -175,14 +175,14 @@ const About = () => {
 					</span>
 				</div> */}
 
-				<div className="moto">
-					<h1 className="heading">
+				<div className="about_moto">
+					<h1 className="about_heading">
 						Meet our team of <span className="blue-text">creators, designers,</span> and world class{' '}
 						<span className="blue-text">problem solvers</span>.
 					</h1>
 				</div>
 
-				<div className="cardsGrid">
+				<div className="about_cards_grid">
 					{TEAM.map((item, index) => (
 						<div className="creatorCard" key={index}>
 							<img src={item.img} alt="name" className="creatorImage" />
