@@ -1,7 +1,5 @@
 // import Navbar from './components/layout/Navbar';
-import { Navbar } from './components';
-import Footer from './components/layout/Footer';
-import NotFound from './components/pages/NotFound';
+import { Navbar, Footer, NotFound } from './components';
 import { Route, Routes, createBrowserRouter, createRoutesFromElements, Outlet, RouterProvider } from 'react-router-dom';
 import { About, Bigcommerce, Blogs, Careers, Features, Home, ScheduleDemo, Services, Stepin } from './components';
 

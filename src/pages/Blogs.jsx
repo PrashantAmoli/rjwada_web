@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import styles from '../../styles/Blogs.module.css';
-import BlogCard from '../cards/BlogCard';
+import styles from '../styles/Blogs.module.css';
+import BlogCard from '../components/cards/BlogCard';
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import { Button, Col, Row } from 'react-bootstrap';
 
-import BLOGS from '../../../blogs.json';
+import BLOGS from '../../blogs.json';
 
 const topics = [
 	'All',

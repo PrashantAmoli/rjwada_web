@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './NewNavbar.css';
+// import '../../styles/NewNavbar.css';
 
 const INTEGRATIONS = [{ name: 'Shopify', path: '/services' }];
 

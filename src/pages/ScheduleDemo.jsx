@@ -1,4 +1,4 @@
-import ScheduleForm from '../cards/ScheduleForm';
+import ScheduleForm from '../components/cards/ScheduleForm';
 import Container from 'react-bootstrap/Container';
 
 function ScheduleDemo() {

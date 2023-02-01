@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 const Vector1 = '/images/vector1.png';
 const Vector = '/images/location-marker.png';
 
-import './Careers.css';
+// import '../../styles/Careers.css';
 
 const Careers = () => {
 	return (

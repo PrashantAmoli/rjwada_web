@@ -1,5 +1,5 @@
 // import '../../styles/NotFound.css';
-import styles from '../../styles/NotFound.module.css';
+import styles from '../styles/NotFound.module.css';
 import { Link, useHref } from 'react-router-dom';
 
 // TODO - add a go back to the previous page fuction to button

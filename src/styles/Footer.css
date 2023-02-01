@@ -1,4 +1,4 @@
-footer {
+.footer_container {
 	text-align: center;
 	background-color: transparent;
 }
@@ -32,12 +32,12 @@ footer {
 .gridcol {
 	background-color: transparent;
 }
-.list {
+.list_footer {
 	padding-left: 5px;
 	background-color: transparent;
 }
 
-.list li {
+.list_footer li {
 	list-style: none;
 	display: flex;
 	text-align: left;
@@ -46,7 +46,7 @@ footer {
 	background-color: transparent;
 }
 
-hr.new4 {
+.new4 {
 	margin-top: 0rem;
 	margin-right: 0px;
 	margin-bottom: 0rem;
@@ -76,7 +76,7 @@ hr.new4 {
 	cursor: pointer;
 }
 
-.grid-container {
+.grid_container {
 	display: grid;
 	box-sizing: border-box;
 	grid-template-columns: 40% 35% 25%;

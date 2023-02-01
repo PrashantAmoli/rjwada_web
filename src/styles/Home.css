@@ -1,10 +1,12 @@
-.home {
+.home_page {
 	background-image: url(/bg.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
-.heading-home{
+.heading-home {
 	/* margin: 6rem 5rem 6rem 5rem; */
 	text-align: center;
 	height: 100vh;
@@ -75,7 +77,7 @@
 	color: #aaa;
 }
 
-.button-group {
+.button_group_home {
 	width: 100%;
 	/* display: flex;
   flex-direction: row;
@@ -85,7 +87,7 @@
 	margin-top: 4rem;
 }
 
-.button-group > button {
+.button_group_home > button {
 	width: 50%;
 	height: 100%;
 	flex-grow: 1;
@@ -102,12 +104,12 @@
 	width: 40%;
 }
 
-.button-group-1 {
+.button_group_home-1 {
 	background-color: #0d99ff;
 	color: #ffffff;
 	border: solid 4px #0d99ff;
 }
-.button-group-2 {
+.button_group_home-2 {
 	color: #ffffff;
 	background: transparent;
 	border: solid 4px #01a99d;
@@ -323,7 +325,6 @@
 	border-radius: 1rem;
 }
 
-
 @media screen and (min-width: 380px) and (max-width: 576px) {
 	.container-4-row {
 		padding: 25% 5% 0 5%;
@@ -332,7 +333,7 @@
 	}
 }
 @media screen and (max-width: 576px) {
-	.heading-home{
+	.heading-home {
 		padding: 5rem 0 5rem 0;
 		height: 50vh;
 	}
@@ -478,13 +479,13 @@
 	.sub-2-container-1 {
 		font-size: small;
 	}
-	.button-group {
+	.button_group_home {
 		margin-top: 0;
 		margin-bottom: 2rem;
 		display: flex;
 		flex-direction: initial;
 	}
-	.button-group > button {
+	.button_group_home > button {
 		height: 80%;
 		font-size: inherit;
 	}
@@ -497,18 +498,18 @@
 		gap: 3%;
 	}
 
-	.container-4-col-1-div-2 p{
+	.container-4-col-1-div-2 p {
 		line-height: normal;
 	}
-	.sub-1-container-4{
+	.sub-1-container-4 {
 		height: 400px;
 	}
-	.sub-2-container-4{
+	.sub-2-container-4 {
 		height: 400px;
 	}
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
-	.heading-home{
+	.heading-home {
 		padding: 8rem 1rem 8rem 1rem;
 		height: 60vh;
 	}
@@ -537,11 +538,11 @@
 	.sub-2-container-1 {
 		font-size: 1rem;
 	}
-	.button-group {
+	.button_group_home {
 		margin-top: 0;
 		height: 2rem;
 	}
-	.button-group > button {
+	.button_group_home > button {
 		font-size: 0.7rem;
 	}
 	.container-2 {
@@ -595,7 +596,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-	.heading-home{
+	.heading-home {
 		padding: 10rem 4rem 8rem 4rem;
 		height: 70vh;
 	}
@@ -645,7 +646,7 @@
 	.sub-2-container-1 {
 		font-size: 0.9rem;
 	}
-	.button-group {
+	.button_group_home {
 		margin-top: 0;
 	}
 	.container-col-1 {
@@ -665,7 +666,7 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-	.heading-home{
+	.heading-home {
 		padding: 7rem;
 		height: 80vh;
 	}
